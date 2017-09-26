@@ -9,9 +9,11 @@
 #include "../Lib/nrarith.h"
 #include "../Lib/nralloc.h"
 
-int* histogramme(byte** image, int nrl, int nrh, int ncl, int nch);
-int* histogramme_cumule(byte** image, int nrl, int nrh, int ncl, int nch);
+int* histogram(byte** image, long nrl, long nrh, long ncl, long nch);
+int* histogram_cumule(byte** image, long nrl, long nrh, long ncl, long nch);
+int** histogram_rgb(rgb8** image, long nrl, long nrh, long ncl, long nch);
 
-byte** rgb_to_greyscale(rgb8** image, int nrl, int nrh, int ncl, int nch);
+byte** rgb_to_greyscale(rgb8** image, long nrl, long nrh, long ncl, long nch);
+
 
 #endif
