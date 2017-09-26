@@ -11,11 +11,17 @@ all: indexation
 indexation: indexation.o $(LIB_OBJ)
 	$(CC) $(CC_FLAGS) indexation.o $(LIB_OBJ) -o indexation.out
 
+conv: conv_main.c convolution.o
+	$(CC) -w convolution.o $(LIB_OBJ) conv_main.c -lm -o convolution.out
+
 indexation.o: indexation.c indexation.h ../Lib/def.h ../Lib/nralloc.h ../Lib/nrarith.h ../Lib/nrio.h
 	$(CC) -c indexation.c -o indexation.o
 
 ../Lib/%.o: ../Lib/%.c ../Lib/%.h -w -lm
 	@$(CC) -c $< -o $@
+
+convolution.o: convolution.c convolution.h ../Lib/def.h ../Lib/nralloc.h ../Lib/nrarith.h ../Lib/nrio.h
+	$(CC) -c convolution.c -o convolution.o
 
 clean: clean_object
 	rm -rfv mk.tmp

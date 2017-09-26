@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 #include "def.h"
 #include "nrio.h"
@@ -18,14 +18,14 @@ int main(void){
 
 	int i,j;
 
-	I=LoadPPM_rgb8matrix("cubesx3.ppm",&nrl,&nrh,&ncl,&nch);
+	I=LoadPPM_rgb8matrix("ImagesTests/cubesx3.ppm",&nrl,&nrh,&ncl,&nch);
 
 	//LoadPGM_bmatrix;
 
 	R=bmatrix(nrl,nrh,ncl,nch);
 
 
-	SavePPM_rgb8matrix(I,nrl,nrh,ncl,nch,"cubesx3_bis.ppm");
+	SavePPM_rgb8matrix(I,nrl,nrh,ncl,nch,"ImagesTests/cubesx3_bis.ppm");
 
 	free_rgb8matrix(I,nrl,nrh,ncl,nch);
 
