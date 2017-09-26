@@ -19,11 +19,11 @@
 #define _NRIO_H_
 
 #ifdef __cplusplus
-#pragma message ("C++")
+// #pragma message ("C++")
 extern "C" {
 #endif
 
-#pragma message("- include nrio.h")
+// #pragma message("- include nrio.h")
 
 IMAGE_EXPORT(void) display_bvector   (byte   *v,long nl,long nh, char *format, char *name);
 IMAGE_EXPORT(void) display_svector   (short  *v,long nl,long nh, char *format, char *name);

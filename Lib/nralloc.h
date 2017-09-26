@@ -21,12 +21,12 @@
 #define _NRALLOC_H_
 
 #ifdef __cplusplus
-#pragma message ("C++")
+// #pragma message ("C++")
 extern "C" {
 #endif
 
-#pragma message("- include nralloc.h")
-#pragma message("  ATTENTION memory transferts are done with MEMCOPY MEMSET")
+// #pragma message("- include nralloc.h")
+// #pragma message("  ATTENTION memory transferts are done with MEMCOPY MEMSET")
 
 #define NR_END 0
 #define FREE_ARG char*

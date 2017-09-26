@@ -12,11 +12,11 @@
 #define __DEF_H__
 
 #ifdef __cplusplus
-#pragma message ("C++")
+// #pragma message ("C++")
 extern "C" {
 #endif
 
-#pragma message ("- ** include def.h **")
+// #pragma message ("- ** include def.h **")
 
 /* ------------------- */
 /* --- Exportation --- */
@@ -24,7 +24,7 @@ extern "C" {
 #define IMAGE_EXPORT(x) x
 #define GPC_EXPORT(x) x __stdcall
 
-#pragma message("GPC_EXPORT == __stdcall")
+// #pragma message("GPC_EXPORT == __stdcall")
 //#define IMAGE_EXPORT(x) x __stdcall
 
 /* ---------------- */
@@ -69,7 +69,7 @@ extern "C" {
 /* ------------- */
 
 #ifdef _DEBUG
-#pragma message ("Info : DEBUG is ON")
+// #pragma message ("Info : DEBUG is ON")
 #define LL_DEBUG(x) x
 #define DEBUG(x) x
 #define VERBOSE(x) x
@@ -84,7 +84,7 @@ extern "C" {
 /* --------------- */
 
 #ifdef NDEBUG
-#pragma message ("Info : DEBUG is OFF")
+// #pragma message ("Info : DEBUG is OFF")
 #define LL_DEBUG(x)
 #define DEBUG(x)
 #define VERBOSE(x)
@@ -121,13 +121,13 @@ extern "C" {
 #ifndef PRIVATE
 #define PRIVATE static
 #else
-#pragma message("  ATTENTION : PRIVATE  already defined")
+// #pragma message("  ATTENTION : PRIVATE  already defined")
 #endif
 
 #ifndef PUBLIC
 #define PUBLIC
 #else
-#pragma message("  ATTENTION : PUBLIC  already defined")
+// #pragma message("  ATTENTION : PUBLIC  already defined")
 #endif
 
 /*#ifndef BOOLEAN
@@ -139,19 +139,19 @@ extern "C" {
 typedef unsigned char BOOLEAN;
 typedef unsigned char boolean;
 typedef          int  BOOL;
-#pragma message("boolean")
+// #pragma message("boolean")
 
 
 #ifndef TRUE
 #define TRUE 1
 #else
-#pragma message("  ATTENTION : TRUE  already defined")
+// #pragma message("  ATTENTION : TRUE  already defined")
 #endif
 
 #ifndef FALSE
 #define FALSE 0
 #else
-#pragma message("  ATTENTION : FALSE  already defined")
+// #pragma message("  ATTENTION : FALSE  already defined")
 #endif
 
 /* ------------------------- */
@@ -163,7 +163,7 @@ typedef          int  BOOL;
 typedef unsigned char byte;
 //#pragma message("typedef unsigned char byte")
 #else
-#pragma message("  ATTENTION : BYTE_AS_UNSIGNED_CHAR already defined")
+// #pragma message("  ATTENTION : BYTE_AS_UNSIGNED_CHAR already defined")
 #endif
 
 #ifndef SBYTE_AS_SIGNED_CHAR
@@ -171,7 +171,7 @@ typedef unsigned char byte;
 typedef signed char sbyte;
 //#pragma message("typedef signed char sbyte")
 #else
-#pragma message("  ATTENTION : SBYTE_AS_SIGNED_CHAR already defined")
+// #pragma message("  ATTENTION : SBYTE_AS_SIGNED_CHAR already defined")
 #endif
 
 #ifndef USHORT_AS_UNSIGNED_SHORT
@@ -179,7 +179,7 @@ typedef signed char sbyte;
 typedef unsigned short ushort;
 //#pragma message("typedef unsigned short ushort")
 #else
-#pragma message("  ATTENTION : USHORT_AS_UNSIGNED_SHORT already defined")
+// #pragma message("  ATTENTION : USHORT_AS_UNSIGNED_SHORT already defined")
 #endif
 
 #ifndef SSHORT_AS_SIGNED_SHORT
@@ -187,7 +187,7 @@ typedef unsigned short ushort;
 typedef signed short sshort;
 //#pragma message("typedef signed short sshort")
 #else
-#pragma message("  ATTENTION : SSHORT_AS_SIGNED_SHORT already defined")
+// #pragma message("  ATTENTION : SSHORT_AS_SIGNED_SHORT already defined")
 #endif
 
 #ifndef UINT_AS_UNSIGNED_INT
@@ -195,7 +195,7 @@ typedef signed short sshort;
 typedef unsigned int uint;
 //#pragma message("typedef unsigned int uint")
 #else
-#pragma message("  ATTENTION : UINT_AS_UNSIGNED_INT already defined")
+// #pragma message("  ATTENTION : UINT_AS_UNSIGNED_INT already defined")
 #endif
 
 #ifndef SINT_AS_SIGNED_INT
@@ -203,7 +203,7 @@ typedef unsigned int uint;
 typedef signed int sint;
 //#pragma message("typedef signed int sint;")
 #else
-#pragma message("  ATTENTION : SINT_AS_SIGNED_INT already defined")
+// #pragma message("  ATTENTION : SINT_AS_SIGNED_INT already defined")
 #endif
 /* ---------------- */
 /* --- bitfield --- */
@@ -294,9 +294,9 @@ typedef struct {
 typedef          char  int8;
 typedef   signed char sint8;
 typedef unsigned char uint8;
-#pragma message("int8 as char")
+// #pragma message("int8 as char")
 #else
-#pragma message("  ATTENTION : INT8_AS_CHAR already defined")
+// #pragma message("  ATTENTION : INT8_AS_CHAR already defined")
 #endif
 
 #ifndef INT16_AS_SHORT
@@ -304,9 +304,9 @@ typedef unsigned char uint8;
 typedef          short  int16;
 typedef   signed short sint16;
 typedef unsigned short uint16;
-#pragma message("int16 as short")
+// #pragma message("int16 as short")
 #else
-#pragma message("  ATTENTION : INT16_AS_SHORT already defined")
+// #pragma message("  ATTENTION : INT16_AS_SHORT already defined")
 #endif
 
 #ifndef INT32_AS_INT
@@ -314,9 +314,9 @@ typedef unsigned short uint16;
 typedef          int  int32;
 typedef   signed int sint32;
 typedef unsigned int uint32;
-#pragma message("int32 as int")
+// #pragma message("int32 as int")
 #else
-#pragma message("  ATTENTION : INT32_AS_INT already defined")
+// #pragma message("  ATTENTION : INT32_AS_INT already defined")
 #endif
 
 #ifndef INT64_AS_INT64
@@ -333,23 +333,23 @@ typedef   signed long long sint64;
 typedef unsigned long long uint64;
 #endif/**/
 #else
-#pragma message("  ATTENTION : INT64_AS_INT64 already defined")
+// #pragma message("  ATTENTION : INT64_AS_INT64 already defined")
 #endif
 
 #ifndef FLOAT32_AS_FLOAT
 #define FLOAT32_AS_FLOAT
 typedef          float  float32;
-#pragma message("float32 as float")
+// #pragma message("float32 as float")
 #else
-#pragma message("  ATTENTION : FLOAT32_AS_FLOAT already defined")
+// #pragma message("  ATTENTION : FLOAT32_AS_FLOAT already defined")
 #endif
 
 #ifndef FLOAT64_AS_DOUBLE
 #define FLOAT64_AS_DOUBLE
 typedef          double  double32;
-#pragma message("float64 as double")
+// #pragma message("float64 as double")
 #else
-#pragma message("  ATTENTION : FLOAT64_AS_DOUBLE already defined")
+// #pragma message("  ATTENTION : FLOAT64_AS_DOUBLE already defined")
 #endif
 
 /* --------------------- */
