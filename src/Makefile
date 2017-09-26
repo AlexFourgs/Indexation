@@ -14,7 +14,7 @@ indexation: indexation.o $(LIB_OBJ)
 indexation.o: indexation.c indexation.h ../Lib/def.h ../Lib/nralloc.h ../Lib/nrarith.h ../Lib/nrio.h
 	$(CC) -c indexation.c -o indexation.o
 
-../Lib/%.o: ../Lib/%.c ../Lib/%.h
+../Lib/%.o: ../Lib/%.c ../Lib/%.h -w -lm
 	@$(CC) -c $< -o $@
 
 clean: clean_object
