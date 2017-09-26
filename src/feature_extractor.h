@@ -15,5 +15,7 @@ int** histogram_rgb(rgb8** image, long nrl, long nrh, long ncl, long nch);
 
 byte** rgb_to_greyscale(rgb8** image, long nrl, long nrh, long ncl, long nch);
 
+int* difference_histogram(int* histogram1, int* histogram2){
+
 
 #endif
