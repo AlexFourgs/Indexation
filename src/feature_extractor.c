@@ -82,3 +82,30 @@ byte** rgb_to_greyscale(rgb8** image, long nrl, long nrh, long ncl, long nch){
 
     return I ;
 }
+
+/**
+ *
+ *
+ */
+float* rgb_rate(rgb8** image, long nrl, long nrh, long ncl, long nch){
+    int i, j ;
+    long r = 0, g = 0, b = 0, total = 0 ;
+
+    float* rate = (float*)malloc(3*sizeof(float));
+
+    for(i = nrl ; i < nrh+1 ; i++){
+        for(j = ncl ; j < nch+1 ; j++){
+            r += image[i][j].r ;
+            g += image[i][j].g ;
+            b += image[i][j].b ;
+        }
+    }
+
+    total = r+g+b ;
+
+    rate[0] = r/total ; // red rate
+    rate[1] = g/total ; // green rate
+    rate[2] = b/total ; // blue rate
+
+    return rate ;
+}
