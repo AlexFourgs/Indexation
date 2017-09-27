@@ -23,6 +23,9 @@ indexation.o: indexation.c indexation.h ../Lib/def.h ../Lib/nralloc.h ../Lib/nra
 convolution.o: convolution.c convolution.h ../Lib/def.h ../Lib/nralloc.h ../Lib/nrarith.h ../Lib/nrio.h
 	$(CC) -c convolution.c -o convolution.o
 
+occi: occi.cpp
+	g++ -o occi.out occi.cpp -I /opt/oracle/instantclient_12_2/sdk/include -locci -lnnz12 -lclntsh
+
 clean: clean_object
 	rm -rfv mk.tmp
 	rm -rfv *.out
