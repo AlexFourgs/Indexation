@@ -7,7 +7,7 @@
 
 // gcc -o plsql_generator plsql_generator.c convolution.c feature_extractor.c ../Lib/nralloc.c ../Lib/nrio.c ../Lib/nrarith.c -w -lm
 
-void generate_plsql_script(char* directory, char* script_file, float moyenne_norme_gradient, int nb_pixel_contour){
+void generate_plsql_script(char* directory, char* script_file){
     // variable de fichiers
     DIR* dir = NULL ;
     struct dirent* actualFile = NULL ;
@@ -31,6 +31,7 @@ void generate_plsql_script(char* directory, char* script_file, float moyenne_nor
     long* histogramme ;
     float mgn = 0.0 ;
     float* rate ;
+    int nb_pixel_contour = 0 ;
 
 
     // Ouverture du fichier de script
@@ -98,11 +99,11 @@ void generate_plsql_script(char* directory, char* script_file, float moyenne_nor
                 fputs(requestHistogram, script);
 
 
-                mgn = meanGradientNorm(image_nb, nrl, nrh, ncl, nch);
-                printf("MGN : %f\n", mgn);
+                mgn = MGN_from_image(image_nb, nrl, nrh, ncl, nch);
                 sprintf(requestMNG, "\tm := %f;\n", mgn);
                 fputs(requestMNG, script);
 
+                nb_pixel_contour = EP_from_image(image_nb, nrl, nrh, ncl, nch);
                 sprintf(requestNPC, "\tn := %d;\n", nb_pixel_contour);
                 fputs(requestNPC, script);
 
@@ -136,5 +137,5 @@ void generate_plsql_script(char* directory, char* script_file, float moyenne_nor
 }
 
 int main(){
-    generate_plsql_script("./archive500/ppm/", "./test.sql", 0, 0);
+    generate_plsql_script("./archive500/ppm/", "./test.sql");
 }
