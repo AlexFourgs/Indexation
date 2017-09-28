@@ -1,9 +1,9 @@
 #include "distance.h"
 
-int* difference_histogram(int* histogram1, int* histogram2){
+long* difference_histogram(long* histogram1, long* histogram2){
 
   int i;
-  int* diff;
+  long* diff;
 
   for(i=0; i<256; i++){
     diff[i] = histogram1[i] - histogram2[i];
@@ -16,7 +16,7 @@ int* difference_histogram(int* histogram1, int* histogram2){
  *
  *
  */
-double euclidian_norm(int* histogram1, int* histogram2){
+double euclidian_norm(long* histogram1, long* histogram2){
   int i;
   double diff;
 
@@ -31,17 +31,43 @@ void display_histogram(int* histogram){
 
 }
 
-char* get_ten_best(rgb8** image,long nrl, long nrh, long ncl, long nch){
+float compare(rgb8** image1_in, rgb8** image2_in,long nrl, long nrh, long ncl, long nch,long nrl1, long nrh1, long ncl1, long nch1){
 
-  //declare
-  byte** image_gr;
-  int* histogram_in;
+  byte** image1 = rgb_to_greyscale(image1_in, nrl, nrh,ncl,nch);
+  byte** image2 = rgb_to_greyscale(image2_in, nrl1, nrh1,ncl1,nch1);
 
-  //convert to grayscale
-  image_gr = rgb_to_greyscale(image, nrl, nrh, ncl, nch);
+  long* histogram1;
+  long* histogram2;
 
-  //compute histogram
-  histogram_in = histogram(image_gr, nrl,  nrh,  ncl,  nch);
+  float score_histogram = 0.0;
+  float score_MGN = 0.0;
+  float score_nbrPixel_Contour = 0.0;
+  float score_rgb[3];
 
+  float* rate_rgb = (float*)malloc(3*sizeof(float));
+  float* rate_rgb1 = (float*)malloc(3*sizeof(float));
 
-}
+  //get and compare histogram
+  histogram1 = histogram(image1,nrl,nrh,ncl,nch);
+  histogram2 = histogram(image2,nrl1,nrh1,ncl1,nch1);
+  score_histogram = euclidian_norm(histogram1, histogram2);
+
+  //get and compare norm score mean
+  score_MGN = abs(MGN_from_image(image1,nrl,nrh,ncl,nch)-MGN_from_image(image2,nrl1,nrh1,ncl1,nch1));
+
+  //get and compare nbrPixel edges
+  score_nbrPixel_Contour = abs(EP_from_image(image1,nrl,nrh,ncl,nch)-EP_from_image(image2,nrl1,nrh1,ncl1,nch1));
+
+  //rate of red, green and blue
+  rate_rgb = rgb_rate(image1_in,nrl,nrh,ncl, nch);
+  rate_rgb1 = rgb_rate(image2_in,nrl1,nrh1,ncl1, nch1);
+
+  score_rgb[0] = abs(rate_rgb[0] - rate_rgb1[0]);
+  score_rgb[1] = abs(rate_rgb[1] - rate_rgb1[1]);
+  score_rgb[2] = abs(rate_rgb[2] - rate_rgb1[2]);
+
+  float total = score_histogram + score_MGN + score_nbrPixel_Contour + score_rgb[0] + score_rgb[1] + score_rgb[2];
+
+  return total;
+
+  }
