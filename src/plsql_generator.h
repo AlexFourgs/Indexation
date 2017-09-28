@@ -4,6 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void generate_plsql_script(char* file, char* image_name, int* histogram, float moyenne_norme_gradient, int nb_pixel_contour, float* rgb_rate);
+void generate_plsql_script(char* file, char* image_name, float moyenne_norme_gradient, int nb_pixel_contour);
 
 #endif

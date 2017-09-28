@@ -6,7 +6,7 @@
 
 // gcc -o plsql_generator plsql_generator.c feature_extractor.c ../Lib/nralloc.c ../Lib/nrio.c ../Lib/nrarith.c -w -lm
 
-void generate_plsql_script(char* directory, char* script_file, int* histogram, float moyenne_norme_gradient, int nb_pixel_contour, float* rgb_rate){
+void generate_plsql_script(char* directory, char* script_file, float moyenne_norme_gradient, int nb_pixel_contour){
     // variable de fichiers
     DIR* dir = NULL ;
     struct dirent* actualFile = NULL ;
@@ -16,8 +16,14 @@ void generate_plsql_script(char* directory, char* script_file, int* histogram, f
     // variables de char* pour les requêtes
     char* actualFileName = (char*)malloc(100*sizeof(char));
     char* requestRGBRate = (char*)malloc(100*sizeof(char));
+    char* requestMNG = (char*)malloc(100*sizeof(char));
+    char* requestHistogram = (char*)malloc(15000*sizeof(char));
+    char* requestNPC = (char*)malloc(100*sizeof(char));
 
     // autres variables
+    int i_histo = 0 ;
+    char* actualHisto = (char*)malloc(10*sizeof(char));
+    long* histogram ;
     float* rate ;
 
 
@@ -52,6 +58,7 @@ void generate_plsql_script(char* directory, char* script_file, int* histogram, f
         **/
         while((actualFile = readdir(dir)) != NULL){
             if(strcmp(actualFile->d_name, "..") && strcmp(actualFile->d_name, ".")){
+                sprintf(actualFilePath, "./archive500/ppm/%s", actualFile->d_name);
 
                 printf("Le fichier lu s'appelle %s.\n", actualFile->d_name);
 
@@ -64,13 +71,24 @@ void generate_plsql_script(char* directory, char* script_file, int* histogram, f
 
                 fputs("\tfor update;\n", script);
 
-                fputs("\th := histo_type();\n", script);
+                histogram = histogram_file(actualFilePath);
+                strcpy(requestHistogram, "\th := histo_type(");
+                for(i_histo = 0 ; i_histo < 255 ; i_histo++){
+                    sprintf(actualHisto, "%ld, ", histogram[i_histo]);
+                    strcat(requestHistogram, actualHisto);
+                }
+                sprintf(actualHisto, "%ld", histogram[i_histo]);
+                strcat(requestHistogram, actualHisto);
+                strcat(requestHistogram, ");\n");
+                fputs(requestHistogram, script);
 
-                fputs("\tm := 3.4;\n", script);
 
-                fputs("\tn := 250;\n", script);
+                sprintf(requestMNG, "\tm := %f;\n", moyenne_norme_gradient);
+                fputs(requestMNG, script);
 
-                sprintf(actualFilePath, "./archive500/ppm/%s", actualFile->d_name);
+                sprintf(requestNPC, "\tn := %d;\n", nb_pixel_contour);
+                fputs(requestNPC, script);
+
                 rate = rgb_rate_file(actualFilePath);
                 sprintf(requestRGBRate, "\tt := taux_type(%f, %f, %f);\n", rate[0], rate[1], rate[2]);
                 fputs(requestRGBRate, script);
@@ -101,5 +119,5 @@ void generate_plsql_script(char* directory, char* script_file, int* histogram, f
 }
 
 int main(){
-    generate_plsql_script("./archive500/ppm/", "./test.sql", 0, 0, 0, 0);
+    generate_plsql_script("./archive500/ppm/", "./test.sql", 0, 0);
 }
