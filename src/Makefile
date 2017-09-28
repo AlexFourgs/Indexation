@@ -11,8 +11,8 @@ all: indexation extractor
 indexation: indexation.o $(LIB_OBJ)
 	$(CC) $(CC_FLAGS) indexation.o $(LIB_OBJ) -o indexation.out
 
-extractor: feature_extractor_test.o distance.o feature_extractor.o $(LIB_OBJ)
-	$(CC) $(CC_FLAGS) feature_extractor_test.o distance.o feature_extractor.o $(LIB_OBJ) -o extractor.out -lm
+extractor: feature_extractor_test.o distance.o feature_extractor.o convolution.o $(LIB_OBJ)
+	$(CC) $(CC_FLAGS) feature_extractor_test.o distance.o feature_extractor.o convolution.o $(LIB_OBJ) -o extractor.out -lm
 
 feature_extractor_test.o: feature_extractor_test.c
 	$(CC) -o feature_extractor_test.o -c feature_extractor_test.c
