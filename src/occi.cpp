@@ -81,9 +81,12 @@ public:
         */
         username = "VINCMONO";
         password = "VINCMONO17";
-        // url = "(DESCRIPTION=(ADDRESS=(PROTOCOL=tcp) (HOST=10.40.128.30) (PORT=1521)) (CONNECT_DATA=(SERVICE_NAME=emrepus)))";
+        // url = "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.40.128.30)(PORT=1521))(CONNECT_DATA=(SID=emrepus)))";
 
-        url = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.40.128.30)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=emrepus)));User Id=VINCMONO;Password=VINCMONO17;";
+        // url = "\"(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.40.128.30)(PORT=1521))(CONNECT_DATA=(SID=emrepus)))\"";
+        url = "10.40.128.30:1521/emrepus";
+
+        // url = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.40.128.30)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=emrepus)));User Id=VINCMONO;Password=VINCMONO17;";
     }
 
     void setUsername (string u) {
@@ -101,12 +104,49 @@ public:
     void runSample () throw (SQLException) {
         Environment *env = Environment::createEnvironment(Environment::DEFAULT);
         try {
-            Connection *conn = env->createConnection (username, password, url);
+            Connection *conn = env->createConnection ("VINCMONO", "VINCMONO17", url);
             insertRows (conn);
             /**
             * Reading a populated blob & printing its property.
             */
-            string sqlQuery = "SELECT  ad_composite FROM print_media WHERE product_id=6666";
+            // string sqlQuery = "SELECT  ad_composite FROM print_media WHERE product_id=6666";
+            // Statement *stmt = conn->createStatement (sqlQuery);
+            //
+            // ResultSet *rset = stmt->executeQuery ();
+            // while (rset->next ())
+            // {
+            //     Blob blob = rset->getBlob (1);
+            //     cout << "Opening the blob in Read only mode" << endl;
+            //     blob.open (OCCI_LOB_READONLY);
+            //     int blobLength = blob.length();
+            //     cout << "Length of the blob is: " << blobLength << endl;
+            //     dumpBlob (blob, blobLength);
+            //     blob.close ();
+            // }
+            // stmt->closeResultSet (rset);
+            //
+            // /**
+            // * Reading a populated blob & printing its property.
+            // */
+            // stmt->setSQL ("SELECT ad_composite FROM print_media WHERE product_id =7777 FOR UPDATE");
+            // rset = stmt->executeQuery ();
+            // while (rset->next ())
+            // {
+            //     Blob blob = rset->getBlob (1);
+            //     cout << "Opening the blob in read write mode" << endl;
+            //     blob.open (OCCI_LOB_READWRITE);
+            //     cout << "Populating the blob" << endl;
+            //     populateBlob (blob, 20);
+            //     int blobLength=blob.length ();
+            //     cout << "Length of the blob is: " << blobLength << endl;
+            //     dumpBlob (blob, blobLength);
+            //     blob.close ();
+            // }
+            // stmt->closeResultSet (rset);
+            // deleteRows (conn);
+            // conn->terminateStatement (stmt);
+
+            string sqlQuery = "SELECT MOYENNE_NORME_GRADIENT FROM multimedia WHERE name='1.jpg'";
             Statement *stmt = conn->createStatement (sqlQuery);
 
             ResultSet *rset = stmt->executeQuery ();
@@ -122,26 +162,6 @@ public:
             }
             stmt->closeResultSet (rset);
 
-            /**
-            * Reading a populated blob & printing its property.
-            */
-            stmt->setSQL ("SELECT ad_composite FROM print_media WHERE product_id =7777 FOR UPDATE");
-            rset = stmt->executeQuery ();
-            while (rset->next ())
-            {
-                Blob blob = rset->getBlob (1);
-                cout << "Opening the blob in read write mode" << endl;
-                blob.open (OCCI_LOB_READWRITE);
-                cout << "Populating the blob" << endl;
-                populateBlob (blob, 20);
-                int blobLength=blob.length ();
-                cout << "Length of the blob is: " << blobLength << endl;
-                dumpBlob (blob, blobLength);
-                blob.close ();
-            }
-            stmt->closeResultSet (rset);
-            deleteRows (conn);
-            conn->terminateStatement (stmt);
             env->terminateConnection (conn);
         }
         catch (SQLException ea) {

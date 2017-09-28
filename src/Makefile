@@ -24,7 +24,7 @@ convolution.o: convolution.c convolution.h ../Lib/def.h ../Lib/nralloc.h ../Lib/
 	$(CC) -c convolution.c -o convolution.o
 
 occi: occi.cpp
-	g++ -o occi.out occi.cpp -I /opt/oracle/instantclient_12_2/sdk/include -locci -lnnz12 -lclntsh
+	g++-4.8 -o occi.out occi.cpp -I /opt/oracle/instantclient_12_2/sdk/include -locci -lnnz12 -lclntsh
 
 clean: clean_object
 	rm -rfv mk.tmp
