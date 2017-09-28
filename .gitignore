@@ -42,3 +42,5 @@ cmake-build-debug/
 CMakeLists.txt
 .idea/
 
+# Qt
+build-qt*/

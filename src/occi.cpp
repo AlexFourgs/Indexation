@@ -83,8 +83,8 @@ public:
         password = "VINCMONO17";
         // url = "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.40.128.30)(PORT=1521))(CONNECT_DATA=(SID=emrepus)))";
 
-        // url = "\"(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.40.128.30)(PORT=1521))(CONNECT_DATA=(SID=emrepus)))\"";
-        url = "10.40.128.30:1521/emrepus";
+        url = "emrepus=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.40.128.30)(PORT=1521))(CONNECT_DATA=(SID=emrepus)))";
+        // url = "10.40.128.30:1521/emrepus";
 
         // url = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.40.128.30)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=emrepus)));User Id=VINCMONO;Password=VINCMONO17;";
     }
@@ -165,7 +165,7 @@ public:
             env->terminateConnection (conn);
         }
         catch (SQLException ea) {
-            cout << "Exception: " << ea.what();
+            cout << ea.what();
         }
         Environment::terminateEnvironment (env);
     }
