@@ -22,7 +22,7 @@ begin
       from multimedia
       where nom = currname
     for update;
-    i.importFrom(ctx, 'file', 'IMG', '1.jpg');
+    i.importFrom(ctx, 'file', 'IMG', currname);
     update multimedia
     set image = i
     where nom = currname;
