@@ -25,6 +25,23 @@ float meanGradientNorm(byte** gradient, int nrl, int nrh, int ncl, int nch) {
     return (float) sum/pixel_nb;
 }
 
+float MGN_from_image(byte** img, int nrl, int nrh, int ncl, int nch) {
+    int mask_gradX[3][3] = {{-1, 0, +1}, {-2, 0, +2}, {-1, 0, +1}};
+    int mask_gradY[3][3] = {{-1, -2, -1}, {0, 0, 0}, {+1, +2, +1}};
+
+    byte** gradX = convolution(img, mask_gradX, nrl, nrh, ncl, nch, 2);
+    byte** gradY = convolution(img, mask_gradY, nrl, nrh, ncl, nch, 2);
+    byte** gradient = gradientNorm(gradX, gradY, nrl, nrh, ncl, nch);
+
+    float mean =  meanGradientNorm(gradient, nrl, nrh, ncl, nch);
+
+    free_bmatrix(gradX, nrl, nrh, ncl, nch);
+    free_bmatrix(gradY, nrl, nrh, ncl, nch);
+    free_bmatrix(gradient, nrl, nrh, ncl, nch);
+
+    return mean;
+}
+
 float MGN_from_file(char* name) {
     long nrl = 0, nrh = 0, ncl = 0, nch = 0;
     int mask_gradX[3][3] = {{-1, 0, +1}, {-2, 0, +2}, {-1, 0, +1}};
@@ -54,6 +71,25 @@ int edgePixels(byte** gradient, int nrl, int nrh, int ncl, int nch) {
         }
     }
     return sum / 255;
+}
+
+int EP_from_image(byte** img, int nrl, int nrh, int ncl, int nch) {
+    int mask_gradX[3][3] = {{-1, 0, +1}, {-2, 0, +2}, {-1, 0, +1}};
+    int mask_gradY[3][3] = {{-1, -2, -1}, {0, 0, 0}, {+1, +2, +1}};
+
+    byte** gradX = convolution(img, mask_gradX, nrl, nrh, ncl, nch, 2);
+    byte** gradY = convolution(img, mask_gradY, nrl, nrh, ncl, nch, 2);
+    byte** gradient = gradientNorm(gradX, gradY, nrl, nrh, ncl, nch);
+    byte** gradient_bin = binarization(gradient, 70, nrl, nrh, ncl, nch);
+
+    int nb = edgePixels(gradient_bin, nrl, nrh, ncl, nch);
+
+    free_bmatrix(gradX, nrl, nrh, ncl, nch);
+    free_bmatrix(gradY, nrl, nrh, ncl, nch);
+    free_bmatrix(gradient, nrl, nrh, ncl, nch);
+    free_bmatrix(gradient_bin, nrl, nrh, ncl, nch);
+
+    return nb;
 }
 
 int EP_from_file(char* name) {
