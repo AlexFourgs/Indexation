@@ -1,5 +1,7 @@
 #include "feature_extractor.h"
 
+#include <math.h>
+
 /**
  *
  *
@@ -134,9 +136,23 @@ float* rgb_rate(rgb8** image, long nrl, long nrh, long ncl, long nch){
 
     total = r+g+b ;
 
-    rate[0] = r/total ; // red rate
-    rate[1] = g/total ; // green rate
-    rate[2] = b/total ; // blue rate
+    rate[0] = (float)r/(float)total ; // red rate
+    rate[1] = (float)g/(float)total ; // green rate
+    rate[2] = (float)b/(float)total ; // blue rate
 
     return rate ;
+}
+
+float* rgb_rate_file(char* file_image){
+    long nrh,nrl,nch,ncl ;
+    rgb8** image ;
+    float* rate ;
+
+    image = LoadPPM_rgb8matrix(file_image, &nrl, &nrh, &ncl, &nch);
+
+    rate = rgb_rate(image, nrl, nrh, ncl, nch);
+
+    // free image à faire
+    return rate ;
+
 }
