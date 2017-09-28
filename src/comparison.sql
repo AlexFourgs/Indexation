@@ -1,21 +1,18 @@
+set serveroutput on;
 declare
-    i ordsys.ordimage;
-    ctx RAW(400) := NULL;
-    ligne multimedia%ROWTYPE;
-    cursor mm is
-    select * from multimedia
-    for update;
     sig1 ordsys.ordimageSignature;
     sig2 ordsys.ordimageSignature;
-    sim integer;
     dist float;
 begin
 
-select signature into sig1
-from multimedia
-where nom = ’image1.jpg’;
-select signature into sig2
-from multimedia
-where nom = ’image2.jpg’;
+    select signature into sig1
+    from multimedia
+    where nom = 'image1.jpg';
+    select signature into sig2
+    from multimedia
+    where nom = 'image2.jpg';
+
+    dist := ordsys.ordimageSignature.evaluateScore(sig1, sig2, 'color = 0.5, texture = 0, shape = 0, location = 0');
+    dbms_output.put_line('Distance=' || dist);
 
 end;

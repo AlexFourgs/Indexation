@@ -28,5 +28,20 @@ double euclidian_norm(int* histogram1, int* histogram2){
 }
 
 void display_histogram(int* histogram){
-  
+
+}
+
+char* get_ten_best(rgb8** image,long nrl, long nrh, long ncl, long nch){
+
+  //declare
+  byte** image_gr;
+  int* histogram_in;
+
+  //convert to grayscale
+  image_gr = rgb_to_greyscale(image, nrl, nrh, ncl, nch);
+
+  //compute histogram
+  histogram_in = histogram(image_gr, nrl,  nrh,  ncl,  nch);
+
+
 }

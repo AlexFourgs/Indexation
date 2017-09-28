@@ -6,10 +6,6 @@ declare
   cursor mm is
   select * from multimedia
   for update;
-  sig1 ordsys.ordimageSignature;
-  sig2 ordsys.ordimageSignature;
-  sim integer;
-  dist float;
   currname varchar(10);
 begin
 
@@ -20,13 +16,13 @@ begin
     insert into multimedia(nom, image, signature)
     values (currname, ordsys.ordimage.init(), ordsys.ordimageSignature.init());
     commit;
-  
+
     -- chargement du contenu de l'image a partir du fichier
     select image into i
       from multimedia
       where nom = currname
     for update;
-    i.importFrom(ctx, 'file', 'IMG', currname);
+    i.importFrom(ctx, 'file', 'IMG', '1.jpg');
     update multimedia
     set image = i
     where nom = currname;
