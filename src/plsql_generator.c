@@ -118,6 +118,8 @@ void generate_plsql_script(char* directory, char* script_file){
                 fputs("\tupdate multimedia\n", script);
                 fputs("\tset HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t\n", script);
 
+                sprintf(actualFileName, "\twhere nom = '%s'", fileNameJPG);
+                strcat(actualFileName, ";\n");
                 fputs(actualFileName, script);
                 fputs("\tcommit;\n\n", script);
             }

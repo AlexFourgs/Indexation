@@ -15,7 +15,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '22.jpg'
+	where nom = '22.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -28,7 +28,7 @@ begin
 	t := taux_type(0.071805, 0.379785, 0.548410);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '466.jpg'
+	where nom = '466.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -41,7 +41,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '169.jpg'
+	where nom = '169.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -54,7 +54,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '168.jpg'
+	where nom = '168.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -67,7 +67,7 @@ begin
 	t := taux_type(0.393621, 0.341777, 0.264602);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '89.jpg'
+	where nom = '89.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -80,7 +80,7 @@ begin
 	t := taux_type(0.337991, 0.316937, 0.345072);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '173.jpg'
+	where nom = '173.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -93,7 +93,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '140.jpg'
+	where nom = '140.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -106,7 +106,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '180.jpg'
+	where nom = '180.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -119,7 +119,7 @@ begin
 	t := taux_type(0.353041, 0.335723, 0.311236);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '175.jpg'
+	where nom = '175.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -132,7 +132,7 @@ begin
 	t := taux_type(0.356589, 0.328091, 0.315320);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '114.jpg'
+	where nom = '114.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -145,7 +145,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '480.jpg'
+	where nom = '480.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -158,7 +158,7 @@ begin
 	t := taux_type(0.625919, 0.221695, 0.152386);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '231.jpg'
+	where nom = '231.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -171,7 +171,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '269.jpg'
+	where nom = '269.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -184,7 +184,7 @@ begin
 	t := taux_type(0.377634, 0.306527, 0.315839);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '414.jpg'
+	where nom = '414.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -197,7 +197,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '206.jpg'
+	where nom = '206.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -210,7 +210,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '141.jpg'
+	where nom = '141.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -223,7 +223,7 @@ begin
 	t := taux_type(0.334771, 0.333358, 0.331871);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '86.jpg'
+	where nom = '86.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -236,7 +236,7 @@ begin
 	t := taux_type(0.347101, 0.344559, 0.308340);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '73.jpg'
+	where nom = '73.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -249,7 +249,7 @@ begin
 	t := taux_type(0.332813, 0.333069, 0.334118);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '417.jpg'
+	where nom = '417.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -262,7 +262,7 @@ begin
 	t := taux_type(0.378635, 0.340782, 0.280583);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '364.jpg'
+	where nom = '364.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -275,7 +275,7 @@ begin
 	t := taux_type(0.427759, 0.305658, 0.266583);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '123.jpg'
+	where nom = '123.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -288,7 +288,7 @@ begin
 	t := taux_type(0.314679, 0.352597, 0.332724);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '128.jpg'
+	where nom = '128.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -301,7 +301,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '205.jpg'
+	where nom = '205.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -314,7 +314,7 @@ begin
 	t := taux_type(0.346309, 0.330588, 0.323103);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '499.jpg'
+	where nom = '499.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -327,7 +327,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '170.jpg'
+	where nom = '170.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -340,7 +340,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '352.jpg'
+	where nom = '352.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -353,7 +353,7 @@ begin
 	t := taux_type(0.329508, 0.331660, 0.338832);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '253.jpg'
+	where nom = '253.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -366,7 +366,7 @@ begin
 	t := taux_type(0.340138, 0.316505, 0.343357);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '35.jpg'
+	where nom = '35.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -379,7 +379,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '271.jpg'
+	where nom = '271.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -392,7 +392,7 @@ begin
 	t := taux_type(0.333584, 0.331500, 0.334916);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '317.jpg'
+	where nom = '317.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -405,7 +405,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '159.jpg'
+	where nom = '159.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -418,7 +418,7 @@ begin
 	t := taux_type(0.381224, 0.315081, 0.303695);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '237.jpg'
+	where nom = '237.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -431,7 +431,7 @@ begin
 	t := taux_type(0.465664, 0.372014, 0.162322);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '324.jpg'
+	where nom = '324.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -444,7 +444,7 @@ begin
 	t := taux_type(0.333175, 0.357032, 0.309792);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '434.jpg'
+	where nom = '434.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -457,7 +457,7 @@ begin
 	t := taux_type(0.399103, 0.325965, 0.274932);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '351.jpg'
+	where nom = '351.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -470,7 +470,7 @@ begin
 	t := taux_type(0.335308, 0.335041, 0.329652);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '369.jpg'
+	where nom = '369.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -483,7 +483,7 @@ begin
 	t := taux_type(0.405601, 0.329112, 0.265286);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '241.jpg'
+	where nom = '241.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -496,7 +496,7 @@ begin
 	t := taux_type(0.355087, 0.340762, 0.304152);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '209.jpg'
+	where nom = '209.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -509,7 +509,7 @@ begin
 	t := taux_type(0.365767, 0.361922, 0.272311);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '399.jpg'
+	where nom = '399.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -522,7 +522,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '355.jpg'
+	where nom = '355.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -535,7 +535,7 @@ begin
 	t := taux_type(0.337369, 0.334386, 0.328245);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '476.jpg'
+	where nom = '476.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -548,7 +548,7 @@ begin
 	t := taux_type(0.315947, 0.319516, 0.364537);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '191.jpg'
+	where nom = '191.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -561,7 +561,7 @@ begin
 	t := taux_type(0.395350, 0.300480, 0.304170);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '296.jpg'
+	where nom = '296.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -574,7 +574,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '479.jpg'
+	where nom = '479.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -587,7 +587,7 @@ begin
 	t := taux_type(0.354230, 0.313995, 0.331775);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '492.jpg'
+	where nom = '492.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -600,7 +600,7 @@ begin
 	t := taux_type(0.331212, 0.329408, 0.339380);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '43.jpg'
+	where nom = '43.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -613,7 +613,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '406.jpg'
+	where nom = '406.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -626,7 +626,7 @@ begin
 	t := taux_type(0.328825, 0.325279, 0.345896);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '5.jpg'
+	where nom = '5.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -639,7 +639,7 @@ begin
 	t := taux_type(0.393758, 0.327892, 0.278350);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '225.jpg'
+	where nom = '225.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -652,7 +652,7 @@ begin
 	t := taux_type(0.398409, 0.312007, 0.289584);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '272.jpg'
+	where nom = '272.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -665,7 +665,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '495.jpg'
+	where nom = '495.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -678,7 +678,7 @@ begin
 	t := taux_type(0.426826, 0.275766, 0.297408);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '14.jpg'
+	where nom = '14.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -691,7 +691,7 @@ begin
 	t := taux_type(0.330858, 0.329804, 0.339339);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '452.jpg'
+	where nom = '452.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -704,7 +704,7 @@ begin
 	t := taux_type(0.344324, 0.331193, 0.324482);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '252.jpg'
+	where nom = '252.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -717,7 +717,7 @@ begin
 	t := taux_type(0.415729, 0.295726, 0.288545);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '133.jpg'
+	where nom = '133.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -730,7 +730,7 @@ begin
 	t := taux_type(0.245181, 0.403740, 0.351079);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '429.jpg'
+	where nom = '429.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -743,7 +743,7 @@ begin
 	t := taux_type(0.331693, 0.331401, 0.336907);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '255.jpg'
+	where nom = '255.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -756,7 +756,7 @@ begin
 	t := taux_type(0.304141, 0.301879, 0.393980);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '98.jpg'
+	where nom = '98.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -769,7 +769,7 @@ begin
 	t := taux_type(0.366236, 0.338826, 0.294938);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '223.jpg'
+	where nom = '223.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -782,7 +782,7 @@ begin
 	t := taux_type(0.339932, 0.333838, 0.326231);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '433.jpg'
+	where nom = '433.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -795,7 +795,7 @@ begin
 	t := taux_type(0.369691, 0.335478, 0.294831);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '74.jpg'
+	where nom = '74.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -808,7 +808,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '315.jpg'
+	where nom = '315.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -821,7 +821,7 @@ begin
 	t := taux_type(0.490163, 0.313489, 0.196348);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '361.jpg'
+	where nom = '361.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -834,7 +834,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '48.jpg'
+	where nom = '48.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -847,7 +847,7 @@ begin
 	t := taux_type(0.334604, 0.333333, 0.332063);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '462.jpg'
+	where nom = '462.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -860,7 +860,7 @@ begin
 	t := taux_type(0.333847, 0.332901, 0.333252);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '363.jpg'
+	where nom = '363.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -873,7 +873,7 @@ begin
 	t := taux_type(0.403436, 0.341139, 0.255425);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '258.jpg'
+	where nom = '258.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -886,7 +886,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '354.jpg'
+	where nom = '354.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -899,7 +899,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '403.jpg'
+	where nom = '403.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -912,7 +912,7 @@ begin
 	t := taux_type(0.339848, 0.334372, 0.325780);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '182.jpg'
+	where nom = '182.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -925,7 +925,7 @@ begin
 	t := taux_type(0.316881, 0.337922, 0.345197);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '42.jpg'
+	where nom = '42.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -938,7 +938,7 @@ begin
 	t := taux_type(0.346472, 0.339443, 0.314086);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '196.jpg'
+	where nom = '196.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -951,7 +951,7 @@ begin
 	t := taux_type(0.334893, 0.334358, 0.330749);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '458.jpg'
+	where nom = '458.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -964,7 +964,7 @@ begin
 	t := taux_type(0.312821, 0.337316, 0.349863);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '64.jpg'
+	where nom = '64.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -977,7 +977,7 @@ begin
 	t := taux_type(0.323666, 0.337449, 0.338886);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '203.jpg'
+	where nom = '203.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -990,7 +990,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '358.jpg'
+	where nom = '358.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1003,7 +1003,7 @@ begin
 	t := taux_type(0.360479, 0.327625, 0.311896);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '409.jpg'
+	where nom = '409.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1016,7 +1016,7 @@ begin
 	t := taux_type(0.372569, 0.318861, 0.308570);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '87.jpg'
+	where nom = '87.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1029,7 +1029,7 @@ begin
 	t := taux_type(0.328594, 0.333388, 0.338018);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '81.jpg'
+	where nom = '81.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1042,7 +1042,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '77.jpg'
+	where nom = '77.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1055,7 +1055,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '494.jpg'
+	where nom = '494.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1068,7 +1068,7 @@ begin
 	t := taux_type(0.326225, 0.324967, 0.348808);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '68.jpg'
+	where nom = '68.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1081,7 +1081,7 @@ begin
 	t := taux_type(0.334361, 0.332992, 0.332647);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '489.jpg'
+	where nom = '489.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1094,7 +1094,7 @@ begin
 	t := taux_type(0.369634, 0.343059, 0.287307);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '9.jpg'
+	where nom = '9.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1107,7 +1107,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '36.jpg'
+	where nom = '36.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1120,7 +1120,7 @@ begin
 	t := taux_type(0.309489, 0.329231, 0.361280);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '319.jpg'
+	where nom = '319.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1133,7 +1133,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '179.jpg'
+	where nom = '179.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1146,7 +1146,7 @@ begin
 	t := taux_type(0.322104, 0.336936, 0.340960);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '185.jpg'
+	where nom = '185.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1159,7 +1159,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '468.jpg'
+	where nom = '468.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1172,7 +1172,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '69.jpg'
+	where nom = '69.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1185,7 +1185,7 @@ begin
 	t := taux_type(0.347686, 0.328865, 0.323449);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '385.jpg'
+	where nom = '385.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1198,7 +1198,7 @@ begin
 	t := taux_type(0.350619, 0.341848, 0.307534);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '118.jpg'
+	where nom = '118.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1211,7 +1211,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '289.jpg'
+	where nom = '289.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1224,7 +1224,7 @@ begin
 	t := taux_type(0.324729, 0.339698, 0.335573);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '432.jpg'
+	where nom = '432.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1237,7 +1237,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '393.jpg'
+	where nom = '393.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1250,7 +1250,7 @@ begin
 	t := taux_type(0.337181, 0.334764, 0.328055);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '435.jpg'
+	where nom = '435.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1263,7 +1263,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '413.jpg'
+	where nom = '413.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1276,7 +1276,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '227.jpg'
+	where nom = '227.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1289,7 +1289,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '12.jpg'
+	where nom = '12.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1302,7 +1302,7 @@ begin
 	t := taux_type(0.412731, 0.319039, 0.268230);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '373.jpg'
+	where nom = '373.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1315,7 +1315,7 @@ begin
 	t := taux_type(0.378918, 0.336091, 0.284991);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '404.jpg'
+	where nom = '404.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1328,7 +1328,7 @@ begin
 	t := taux_type(0.360178, 0.332132, 0.307690);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '454.jpg'
+	where nom = '454.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1341,7 +1341,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '353.jpg'
+	where nom = '353.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1354,7 +1354,7 @@ begin
 	t := taux_type(0.364589, 0.332124, 0.303287);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '149.jpg'
+	where nom = '149.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1367,7 +1367,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '450.jpg'
+	where nom = '450.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1380,7 +1380,7 @@ begin
 	t := taux_type(0.408359, 0.327964, 0.263677);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '16.jpg'
+	where nom = '16.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1393,7 +1393,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '3.jpg'
+	where nom = '3.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1406,7 +1406,7 @@ begin
 	t := taux_type(0.324888, 0.324845, 0.350267);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '256.jpg'
+	where nom = '256.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1419,7 +1419,7 @@ begin
 	t := taux_type(0.358776, 0.331584, 0.309640);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '254.jpg'
+	where nom = '254.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1432,7 +1432,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '230.jpg'
+	where nom = '230.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1445,7 +1445,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '122.jpg'
+	where nom = '122.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1458,7 +1458,7 @@ begin
 	t := taux_type(0.358510, 0.344178, 0.297312);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '426.jpg'
+	where nom = '426.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1471,7 +1471,7 @@ begin
 	t := taux_type(0.342341, 0.334528, 0.323131);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '100.jpg'
+	where nom = '100.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1484,7 +1484,7 @@ begin
 	t := taux_type(0.396058, 0.340753, 0.263189);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '360.jpg'
+	where nom = '360.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1497,7 +1497,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '192.jpg'
+	where nom = '192.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1510,7 +1510,7 @@ begin
 	t := taux_type(0.390920, 0.328696, 0.280384);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '57.jpg'
+	where nom = '57.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1523,7 +1523,7 @@ begin
 	t := taux_type(0.334259, 0.334739, 0.331002);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '451.jpg'
+	where nom = '451.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1536,7 +1536,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '63.jpg'
+	where nom = '63.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1549,7 +1549,7 @@ begin
 	t := taux_type(0.353270, 0.325193, 0.321537);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '292.jpg'
+	where nom = '292.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1562,7 +1562,7 @@ begin
 	t := taux_type(0.441285, 0.303756, 0.254959);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '415.jpg'
+	where nom = '415.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1575,7 +1575,7 @@ begin
 	t := taux_type(0.337488, 0.332499, 0.330014);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '83.jpg'
+	where nom = '83.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1588,7 +1588,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '213.jpg'
+	where nom = '213.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1601,7 +1601,7 @@ begin
 	t := taux_type(0.365559, 0.339108, 0.295333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '82.jpg'
+	where nom = '82.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1614,7 +1614,7 @@ begin
 	t := taux_type(0.386565, 0.370740, 0.242695);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '45.jpg'
+	where nom = '45.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1627,7 +1627,7 @@ begin
 	t := taux_type(0.281357, 0.344899, 0.373744);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '195.jpg'
+	where nom = '195.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1640,7 +1640,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '150.jpg'
+	where nom = '150.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1653,7 +1653,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '198.jpg'
+	where nom = '198.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1666,7 +1666,7 @@ begin
 	t := taux_type(0.337082, 0.333713, 0.329204);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '197.jpg'
+	where nom = '197.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1679,7 +1679,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '277.jpg'
+	where nom = '277.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1692,7 +1692,7 @@ begin
 	t := taux_type(0.330069, 0.329283, 0.340649);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '155.jpg'
+	where nom = '155.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1705,7 +1705,7 @@ begin
 	t := taux_type(0.362825, 0.343318, 0.293857);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '370.jpg'
+	where nom = '370.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1718,7 +1718,7 @@ begin
 	t := taux_type(0.304054, 0.325766, 0.370180);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '382.jpg'
+	where nom = '382.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1731,7 +1731,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '152.jpg'
+	where nom = '152.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1744,7 +1744,7 @@ begin
 	t := taux_type(0.314485, 0.333615, 0.351901);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '334.jpg'
+	where nom = '334.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1757,7 +1757,7 @@ begin
 	t := taux_type(0.386398, 0.383638, 0.229964);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '134.jpg'
+	where nom = '134.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1770,7 +1770,7 @@ begin
 	t := taux_type(0.333962, 0.340440, 0.325598);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '75.jpg'
+	where nom = '75.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1783,7 +1783,7 @@ begin
 	t := taux_type(0.334932, 0.330898, 0.334170);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '260.jpg'
+	where nom = '260.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1796,7 +1796,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '497.jpg'
+	where nom = '497.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1809,7 +1809,7 @@ begin
 	t := taux_type(0.329109, 0.311360, 0.359531);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '325.jpg'
+	where nom = '325.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1822,7 +1822,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '291.jpg'
+	where nom = '291.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1835,7 +1835,7 @@ begin
 	t := taux_type(0.345444, 0.340207, 0.314349);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '460.jpg'
+	where nom = '460.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1848,7 +1848,7 @@ begin
 	t := taux_type(0.338476, 0.333030, 0.328493);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '309.jpg'
+	where nom = '309.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1861,7 +1861,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '194.jpg'
+	where nom = '194.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1874,7 +1874,7 @@ begin
 	t := taux_type(0.348898, 0.337874, 0.313228);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '313.jpg'
+	where nom = '313.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1887,7 +1887,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '221.jpg'
+	where nom = '221.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1900,7 +1900,7 @@ begin
 	t := taux_type(0.337255, 0.331010, 0.331735);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '375.jpg'
+	where nom = '375.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1913,7 +1913,7 @@ begin
 	t := taux_type(0.387402, 0.348825, 0.263773);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '27.jpg'
+	where nom = '27.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1926,7 +1926,7 @@ begin
 	t := taux_type(0.336743, 0.336743, 0.326513);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '162.jpg'
+	where nom = '162.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1939,7 +1939,7 @@ begin
 	t := taux_type(0.295486, 0.329339, 0.375175);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '153.jpg'
+	where nom = '153.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1952,7 +1952,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '224.jpg'
+	where nom = '224.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1965,7 +1965,7 @@ begin
 	t := taux_type(0.367670, 0.321030, 0.311299);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '119.jpg'
+	where nom = '119.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1978,7 +1978,7 @@ begin
 	t := taux_type(0.389706, 0.352444, 0.257850);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '420.jpg'
+	where nom = '420.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -1991,7 +1991,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '33.jpg'
+	where nom = '33.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2004,7 +2004,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '93.jpg'
+	where nom = '93.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2017,7 +2017,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '217.jpg'
+	where nom = '217.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2030,7 +2030,7 @@ begin
 	t := taux_type(0.506107, 0.430932, 0.062961);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '165.jpg'
+	where nom = '165.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2043,7 +2043,7 @@ begin
 	t := taux_type(0.340926, 0.334305, 0.324769);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '472.jpg'
+	where nom = '472.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2056,7 +2056,7 @@ begin
 	t := taux_type(0.310617, 0.373782, 0.315601);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '305.jpg'
+	where nom = '305.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2069,7 +2069,7 @@ begin
 	t := taux_type(0.332423, 0.363798, 0.303779);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '402.jpg'
+	where nom = '402.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2082,7 +2082,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '58.jpg'
+	where nom = '58.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2095,7 +2095,7 @@ begin
 	t := taux_type(0.354696, 0.299120, 0.346185);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '464.jpg'
+	where nom = '464.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2108,7 +2108,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '266.jpg'
+	where nom = '266.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2121,7 +2121,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '343.jpg'
+	where nom = '343.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2134,7 +2134,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '216.jpg'
+	where nom = '216.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2147,7 +2147,7 @@ begin
 	t := taux_type(0.388525, 0.312030, 0.299445);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '300.jpg'
+	where nom = '300.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2160,7 +2160,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '20.jpg'
+	where nom = '20.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2173,7 +2173,7 @@ begin
 	t := taux_type(0.355044, 0.333987, 0.310969);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '106.jpg'
+	where nom = '106.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2186,7 +2186,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '411.jpg'
+	where nom = '411.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2199,7 +2199,7 @@ begin
 	t := taux_type(0.334661, 0.334001, 0.331337);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '108.jpg'
+	where nom = '108.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2212,7 +2212,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '184.jpg'
+	where nom = '184.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2225,7 +2225,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '212.jpg'
+	where nom = '212.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2238,7 +2238,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '284.jpg'
+	where nom = '284.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2251,7 +2251,7 @@ begin
 	t := taux_type(0.346933, 0.329711, 0.323356);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '337.jpg'
+	where nom = '337.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2264,7 +2264,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '366.jpg'
+	where nom = '366.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2277,7 +2277,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '44.jpg'
+	where nom = '44.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2290,7 +2290,7 @@ begin
 	t := taux_type(0.336209, 0.335373, 0.328418);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '245.jpg'
+	where nom = '245.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2303,7 +2303,7 @@ begin
 	t := taux_type(0.391262, 0.327438, 0.281300);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '248.jpg'
+	where nom = '248.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2316,7 +2316,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '120.jpg'
+	where nom = '120.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2329,7 +2329,7 @@ begin
 	t := taux_type(0.388951, 0.319916, 0.291133);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '383.jpg'
+	where nom = '383.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2342,7 +2342,7 @@ begin
 	t := taux_type(0.333444, 0.333449, 0.333107);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '10.jpg'
+	where nom = '10.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2355,7 +2355,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '51.jpg'
+	where nom = '51.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2368,7 +2368,7 @@ begin
 	t := taux_type(0.353341, 0.320883, 0.325776);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '65.jpg'
+	where nom = '65.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2381,7 +2381,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '115.jpg'
+	where nom = '115.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2394,7 +2394,7 @@ begin
 	t := taux_type(0.330194, 0.334021, 0.335785);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '96.jpg'
+	where nom = '96.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2407,7 +2407,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '110.jpg'
+	where nom = '110.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2420,7 +2420,7 @@ begin
 	t := taux_type(0.437897, 0.328634, 0.233469);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '316.jpg'
+	where nom = '316.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2433,7 +2433,7 @@ begin
 	t := taux_type(0.337813, 0.340127, 0.322060);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '41.jpg'
+	where nom = '41.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2446,7 +2446,7 @@ begin
 	t := taux_type(0.302120, 0.346668, 0.351212);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '412.jpg'
+	where nom = '412.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2459,7 +2459,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '485.jpg'
+	where nom = '485.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2472,7 +2472,7 @@ begin
 	t := taux_type(0.482857, 0.331043, 0.186100);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '29.jpg'
+	where nom = '29.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2485,7 +2485,7 @@ begin
 	t := taux_type(0.338924, 0.329508, 0.331567);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '238.jpg'
+	where nom = '238.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2498,7 +2498,7 @@ begin
 	t := taux_type(0.335476, 0.333306, 0.331218);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '90.jpg'
+	where nom = '90.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2511,7 +2511,7 @@ begin
 	t := taux_type(0.308949, 0.331072, 0.359979);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '367.jpg'
+	where nom = '367.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2524,7 +2524,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '178.jpg'
+	where nom = '178.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2537,7 +2537,7 @@ begin
 	t := taux_type(0.332755, 0.331142, 0.336104);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '247.jpg'
+	where nom = '247.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2550,7 +2550,7 @@ begin
 	t := taux_type(0.465735, 0.386481, 0.147784);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '54.jpg'
+	where nom = '54.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2563,7 +2563,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '146.jpg'
+	where nom = '146.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2576,7 +2576,7 @@ begin
 	t := taux_type(0.445787, 0.350815, 0.203398);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '392.jpg'
+	where nom = '392.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2589,7 +2589,7 @@ begin
 	t := taux_type(0.366792, 0.360358, 0.272851);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '449.jpg'
+	where nom = '449.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2602,7 +2602,7 @@ begin
 	t := taux_type(0.291246, 0.339230, 0.369523);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '279.jpg'
+	where nom = '279.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2615,7 +2615,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '181.jpg'
+	where nom = '181.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2628,7 +2628,7 @@ begin
 	t := taux_type(0.325399, 0.325399, 0.349203);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '346.jpg'
+	where nom = '346.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2641,7 +2641,7 @@ begin
 	t := taux_type(0.333295, 0.333357, 0.333348);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '161.jpg'
+	where nom = '161.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2654,7 +2654,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '62.jpg'
+	where nom = '62.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2667,7 +2667,7 @@ begin
 	t := taux_type(0.512227, 0.293499, 0.194274);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '322.jpg'
+	where nom = '322.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2680,7 +2680,7 @@ begin
 	t := taux_type(0.392071, 0.352768, 0.255161);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '103.jpg'
+	where nom = '103.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2693,7 +2693,7 @@ begin
 	t := taux_type(0.358800, 0.330891, 0.310309);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '47.jpg'
+	where nom = '47.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2706,7 +2706,7 @@ begin
 	t := taux_type(0.283188, 0.346035, 0.370777);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '471.jpg'
+	where nom = '471.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2719,7 +2719,7 @@ begin
 	t := taux_type(0.356792, 0.342777, 0.300431);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '261.jpg'
+	where nom = '261.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2732,7 +2732,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '391.jpg'
+	where nom = '391.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2745,7 +2745,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '310.jpg'
+	where nom = '310.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2758,7 +2758,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '372.jpg'
+	where nom = '372.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2771,7 +2771,7 @@ begin
 	t := taux_type(0.418684, 0.324163, 0.257152);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '232.jpg'
+	where nom = '232.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2784,7 +2784,7 @@ begin
 	t := taux_type(0.339299, 0.333999, 0.326703);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '222.jpg'
+	where nom = '222.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2797,7 +2797,7 @@ begin
 	t := taux_type(0.337878, 0.335798, 0.326324);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '26.jpg'
+	where nom = '26.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2810,7 +2810,7 @@ begin
 	t := taux_type(0.340221, 0.336729, 0.323049);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '445.jpg'
+	where nom = '445.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2823,7 +2823,7 @@ begin
 	t := taux_type(0.430229, 0.335610, 0.234162);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '243.jpg'
+	where nom = '243.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2836,7 +2836,7 @@ begin
 	t := taux_type(0.385435, 0.330926, 0.283639);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '459.jpg'
+	where nom = '459.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2849,7 +2849,7 @@ begin
 	t := taux_type(0.418955, 0.314407, 0.266638);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '71.jpg'
+	where nom = '71.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2862,7 +2862,7 @@ begin
 	t := taux_type(0.339529, 0.336191, 0.324281);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '273.jpg'
+	where nom = '273.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2875,7 +2875,7 @@ begin
 	t := taux_type(0.436880, 0.340588, 0.222533);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '488.jpg'
+	where nom = '488.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2888,7 +2888,7 @@ begin
 	t := taux_type(0.378514, 0.325002, 0.296485);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '101.jpg'
+	where nom = '101.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2901,7 +2901,7 @@ begin
 	t := taux_type(0.343143, 0.332945, 0.323912);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '430.jpg'
+	where nom = '430.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2914,7 +2914,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '344.jpg'
+	where nom = '344.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2927,7 +2927,7 @@ begin
 	t := taux_type(0.348668, 0.330181, 0.321151);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '137.jpg'
+	where nom = '137.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2940,7 +2940,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '52.jpg'
+	where nom = '52.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2953,7 +2953,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '127.jpg'
+	where nom = '127.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2966,7 +2966,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '156.jpg'
+	where nom = '156.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2979,7 +2979,7 @@ begin
 	t := taux_type(0.378910, 0.343246, 0.277844);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '38.jpg'
+	where nom = '38.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -2992,7 +2992,7 @@ begin
 	t := taux_type(0.345959, 0.333425, 0.320615);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '85.jpg'
+	where nom = '85.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3005,7 +3005,7 @@ begin
 	t := taux_type(0.332657, 0.332887, 0.334456);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '444.jpg'
+	where nom = '444.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3018,7 +3018,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '394.jpg'
+	where nom = '394.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3031,7 +3031,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '498.jpg'
+	where nom = '498.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3044,7 +3044,7 @@ begin
 	t := taux_type(0.334210, 0.313494, 0.352296);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '92.jpg'
+	where nom = '92.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3057,7 +3057,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '97.jpg'
+	where nom = '97.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3070,7 +3070,7 @@ begin
 	t := taux_type(0.333427, 0.333241, 0.333332);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '418.jpg'
+	where nom = '418.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3083,7 +3083,7 @@ begin
 	t := taux_type(0.344908, 0.337365, 0.317727);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '341.jpg'
+	where nom = '341.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3096,7 +3096,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '80.jpg'
+	where nom = '80.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3109,7 +3109,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '378.jpg'
+	where nom = '378.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3122,7 +3122,7 @@ begin
 	t := taux_type(0.360032, 0.320972, 0.318997);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '329.jpg'
+	where nom = '329.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3135,7 +3135,7 @@ begin
 	t := taux_type(0.331874, 0.332330, 0.335796);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '345.jpg'
+	where nom = '345.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3148,7 +3148,7 @@ begin
 	t := taux_type(0.333346, 0.333320, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '461.jpg'
+	where nom = '461.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3161,7 +3161,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '25.jpg'
+	where nom = '25.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3174,7 +3174,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '116.jpg'
+	where nom = '116.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3187,7 +3187,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '60.jpg'
+	where nom = '60.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3200,7 +3200,7 @@ begin
 	t := taux_type(0.419135, 0.312316, 0.268549);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '11.jpg'
+	where nom = '11.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3213,7 +3213,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '396.jpg'
+	where nom = '396.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3226,7 +3226,7 @@ begin
 	t := taux_type(0.407080, 0.350144, 0.242776);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '126.jpg'
+	where nom = '126.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3239,7 +3239,7 @@ begin
 	t := taux_type(0.345726, 0.339771, 0.314503);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '390.jpg'
+	where nom = '390.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3252,7 +3252,7 @@ begin
 	t := taux_type(0.419235, 0.350677, 0.230088);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '50.jpg'
+	where nom = '50.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3265,7 +3265,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '465.jpg'
+	where nom = '465.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3278,7 +3278,7 @@ begin
 	t := taux_type(0.343777, 0.328683, 0.327541);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '340.jpg'
+	where nom = '340.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3291,7 +3291,7 @@ begin
 	t := taux_type(0.330549, 0.333450, 0.336001);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '151.jpg'
+	where nom = '151.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3304,7 +3304,7 @@ begin
 	t := taux_type(0.088954, 0.447241, 0.463805);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '447.jpg'
+	where nom = '447.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3317,7 +3317,7 @@ begin
 	t := taux_type(0.329822, 0.337085, 0.333094);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '318.jpg'
+	where nom = '318.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3330,7 +3330,7 @@ begin
 	t := taux_type(0.339780, 0.329454, 0.330766);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '220.jpg'
+	where nom = '220.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3343,7 +3343,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '423.jpg'
+	where nom = '423.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3356,7 +3356,7 @@ begin
 	t := taux_type(0.390840, 0.347054, 0.262106);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '441.jpg'
+	where nom = '441.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3369,7 +3369,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '268.jpg'
+	where nom = '268.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3382,7 +3382,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '199.jpg'
+	where nom = '199.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3395,7 +3395,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '239.jpg'
+	where nom = '239.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3408,7 +3408,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '246.jpg'
+	where nom = '246.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3421,7 +3421,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '288.jpg'
+	where nom = '288.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3434,7 +3434,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '482.jpg'
+	where nom = '482.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3447,7 +3447,7 @@ begin
 	t := taux_type(0.428256, 0.354237, 0.217507);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '176.jpg'
+	where nom = '176.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3460,7 +3460,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '211.jpg'
+	where nom = '211.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3473,7 +3473,7 @@ begin
 	t := taux_type(0.374160, 0.339430, 0.286410);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '330.jpg'
+	where nom = '330.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3486,7 +3486,7 @@ begin
 	t := taux_type(0.358423, 0.341166, 0.300411);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '264.jpg'
+	where nom = '264.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3499,7 +3499,7 @@ begin
 	t := taux_type(0.343957, 0.340886, 0.315157);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '67.jpg'
+	where nom = '67.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3512,7 +3512,7 @@ begin
 	t := taux_type(0.362516, 0.332502, 0.304982);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '493.jpg'
+	where nom = '493.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3525,7 +3525,7 @@ begin
 	t := taux_type(0.425917, 0.284766, 0.289317);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '78.jpg'
+	where nom = '78.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3538,7 +3538,7 @@ begin
 	t := taux_type(0.333482, 0.333267, 0.333251);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '490.jpg'
+	where nom = '490.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3551,7 +3551,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '46.jpg'
+	where nom = '46.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3564,7 +3564,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '467.jpg'
+	where nom = '467.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3577,7 +3577,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '281.jpg'
+	where nom = '281.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3590,7 +3590,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '124.jpg'
+	where nom = '124.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3603,7 +3603,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '53.jpg'
+	where nom = '53.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3616,7 +3616,7 @@ begin
 	t := taux_type(0.384822, 0.338194, 0.276984);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '131.jpg'
+	where nom = '131.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3629,7 +3629,7 @@ begin
 	t := taux_type(0.290472, 0.350344, 0.359184);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '359.jpg'
+	where nom = '359.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3642,7 +3642,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '386.jpg'
+	where nom = '386.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3655,7 +3655,7 @@ begin
 	t := taux_type(0.338343, 0.335793, 0.325864);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '332.jpg'
+	where nom = '332.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3668,7 +3668,7 @@ begin
 	t := taux_type(0.332150, 0.331284, 0.336566);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '208.jpg'
+	where nom = '208.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3681,7 +3681,7 @@ begin
 	t := taux_type(0.393630, 0.300649, 0.305721);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '193.jpg'
+	where nom = '193.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3694,7 +3694,7 @@ begin
 	t := taux_type(0.397973, 0.320653, 0.281374);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '109.jpg'
+	where nom = '109.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3707,7 +3707,7 @@ begin
 	t := taux_type(0.351849, 0.321125, 0.327026);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '314.jpg'
+	where nom = '314.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3720,7 +3720,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '40.jpg'
+	where nom = '40.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3733,7 +3733,7 @@ begin
 	t := taux_type(0.205418, 0.331896, 0.462685);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '257.jpg'
+	where nom = '257.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3746,7 +3746,7 @@ begin
 	t := taux_type(0.346487, 0.328844, 0.324668);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '136.jpg'
+	where nom = '136.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3759,7 +3759,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '154.jpg'
+	where nom = '154.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3772,7 +3772,7 @@ begin
 	t := taux_type(0.341402, 0.339046, 0.319552);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '371.jpg'
+	where nom = '371.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3785,7 +3785,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '307.jpg'
+	where nom = '307.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3798,7 +3798,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '147.jpg'
+	where nom = '147.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3811,7 +3811,7 @@ begin
 	t := taux_type(0.345203, 0.330142, 0.324655);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '235.jpg'
+	where nom = '235.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3824,7 +3824,7 @@ begin
 	t := taux_type(0.364755, 0.319174, 0.316070);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '282.jpg'
+	where nom = '282.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3837,7 +3837,7 @@ begin
 	t := taux_type(0.331883, 0.330623, 0.337493);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '240.jpg'
+	where nom = '240.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3850,7 +3850,7 @@ begin
 	t := taux_type(0.343770, 0.337851, 0.318379);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '215.jpg'
+	where nom = '215.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3863,7 +3863,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '384.jpg'
+	where nom = '384.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3876,7 +3876,7 @@ begin
 	t := taux_type(0.396963, 0.324946, 0.278092);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '84.jpg'
+	where nom = '84.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3889,7 +3889,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '30.jpg'
+	where nom = '30.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3902,7 +3902,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '31.jpg'
+	where nom = '31.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3915,7 +3915,7 @@ begin
 	t := taux_type(0.338486, 0.329937, 0.331578);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '7.jpg'
+	where nom = '7.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3928,7 +3928,7 @@ begin
 	t := taux_type(0.279260, 0.371283, 0.349457);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '229.jpg'
+	where nom = '229.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3941,7 +3941,7 @@ begin
 	t := taux_type(0.336284, 0.338331, 0.325385);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '436.jpg'
+	where nom = '436.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3954,7 +3954,7 @@ begin
 	t := taux_type(0.332152, 0.332151, 0.335698);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '183.jpg'
+	where nom = '183.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3967,7 +3967,7 @@ begin
 	t := taux_type(0.318908, 0.325264, 0.355828);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '439.jpg'
+	where nom = '439.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3980,7 +3980,7 @@ begin
 	t := taux_type(0.335727, 0.333328, 0.330945);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '99.jpg'
+	where nom = '99.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -3993,7 +3993,7 @@ begin
 	t := taux_type(0.377487, 0.334442, 0.288071);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '204.jpg'
+	where nom = '204.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4006,7 +4006,7 @@ begin
 	t := taux_type(0.344209, 0.349763, 0.306028);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '210.jpg'
+	where nom = '210.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4019,7 +4019,7 @@ begin
 	t := taux_type(0.317921, 0.342416, 0.339663);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '138.jpg'
+	where nom = '138.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4032,7 +4032,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '496.jpg'
+	where nom = '496.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4045,7 +4045,7 @@ begin
 	t := taux_type(0.329546, 0.336337, 0.334117);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '270.jpg'
+	where nom = '270.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4058,7 +4058,7 @@ begin
 	t := taux_type(0.333811, 0.338013, 0.328176);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '380.jpg'
+	where nom = '380.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4071,7 +4071,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '440.jpg'
+	where nom = '440.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4084,7 +4084,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '295.jpg'
+	where nom = '295.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4097,7 +4097,7 @@ begin
 	t := taux_type(0.383383, 0.337662, 0.278955);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '491.jpg'
+	where nom = '491.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4110,7 +4110,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '166.jpg'
+	where nom = '166.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4123,7 +4123,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '350.jpg'
+	where nom = '350.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4136,7 +4136,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '164.jpg'
+	where nom = '164.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4149,7 +4149,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '397.jpg'
+	where nom = '397.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4162,7 +4162,7 @@ begin
 	t := taux_type(0.369047, 0.353314, 0.277638);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '142.jpg'
+	where nom = '142.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4175,7 +4175,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '21.jpg'
+	where nom = '21.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4188,7 +4188,7 @@ begin
 	t := taux_type(0.328358, 0.332274, 0.339368);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '469.jpg'
+	where nom = '469.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4201,7 +4201,7 @@ begin
 	t := taux_type(0.334473, 0.314509, 0.351018);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '79.jpg'
+	where nom = '79.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4214,7 +4214,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '6.jpg'
+	where nom = '6.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4227,7 +4227,7 @@ begin
 	t := taux_type(0.338876, 0.331055, 0.330069);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '187.jpg'
+	where nom = '187.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4240,7 +4240,7 @@ begin
 	t := taux_type(0.432580, 0.323393, 0.244027);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '320.jpg'
+	where nom = '320.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4253,7 +4253,7 @@ begin
 	t := taux_type(0.321598, 0.336120, 0.342282);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '311.jpg'
+	where nom = '311.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4266,7 +4266,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '8.jpg'
+	where nom = '8.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4279,7 +4279,7 @@ begin
 	t := taux_type(0.368218, 0.325176, 0.306605);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '275.jpg'
+	where nom = '275.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4292,7 +4292,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '442.jpg'
+	where nom = '442.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4305,7 +4305,7 @@ begin
 	t := taux_type(0.329112, 0.332141, 0.338746);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '298.jpg'
+	where nom = '298.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4318,7 +4318,7 @@ begin
 	t := taux_type(0.346029, 0.334421, 0.319550);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '76.jpg'
+	where nom = '76.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4331,7 +4331,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '395.jpg'
+	where nom = '395.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4344,7 +4344,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '95.jpg'
+	where nom = '95.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4357,7 +4357,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '290.jpg'
+	where nom = '290.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4370,7 +4370,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '410.jpg'
+	where nom = '410.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4383,7 +4383,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '1.jpg'
+	where nom = '1.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4396,7 +4396,7 @@ begin
 	t := taux_type(0.327595, 0.322820, 0.349585);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '474.jpg'
+	where nom = '474.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4409,7 +4409,7 @@ begin
 	t := taux_type(0.331107, 0.384224, 0.284668);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '23.jpg'
+	where nom = '23.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4422,7 +4422,7 @@ begin
 	t := taux_type(0.405862, 0.331012, 0.263126);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '297.jpg'
+	where nom = '297.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4435,7 +4435,7 @@ begin
 	t := taux_type(0.392322, 0.317395, 0.290282);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '379.jpg'
+	where nom = '379.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4448,7 +4448,7 @@ begin
 	t := taux_type(0.360117, 0.316205, 0.323678);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '484.jpg'
+	where nom = '484.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4461,7 +4461,7 @@ begin
 	t := taux_type(0.341309, 0.332801, 0.325890);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '416.jpg'
+	where nom = '416.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4474,7 +4474,7 @@ begin
 	t := taux_type(0.350706, 0.325781, 0.323513);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '405.jpg'
+	where nom = '405.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4487,7 +4487,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '443.jpg'
+	where nom = '443.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4500,7 +4500,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '105.jpg'
+	where nom = '105.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4513,7 +4513,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '419.jpg'
+	where nom = '419.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4526,7 +4526,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '500.jpg'
+	where nom = '500.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4539,7 +4539,7 @@ begin
 	t := taux_type(0.424182, 0.324580, 0.251238);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '389.jpg'
+	where nom = '389.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4552,7 +4552,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '323.jpg'
+	where nom = '323.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4565,7 +4565,7 @@ begin
 	t := taux_type(0.422276, 0.292474, 0.285250);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '145.jpg'
+	where nom = '145.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4578,7 +4578,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '400.jpg'
+	where nom = '400.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4591,7 +4591,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '293.jpg'
+	where nom = '293.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4604,7 +4604,7 @@ begin
 	t := taux_type(0.315644, 0.333516, 0.350840);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '218.jpg'
+	where nom = '218.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4617,7 +4617,7 @@ begin
 	t := taux_type(0.333385, 0.333430, 0.333185);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '302.jpg'
+	where nom = '302.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4630,7 +4630,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '17.jpg'
+	where nom = '17.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4643,7 +4643,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '475.jpg'
+	where nom = '475.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4656,7 +4656,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '481.jpg'
+	where nom = '481.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4669,7 +4669,7 @@ begin
 	t := taux_type(0.376862, 0.332097, 0.291041);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '32.jpg'
+	where nom = '32.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4682,7 +4682,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '37.jpg'
+	where nom = '37.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4695,7 +4695,7 @@ begin
 	t := taux_type(0.413158, 0.326587, 0.260255);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '207.jpg'
+	where nom = '207.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4708,7 +4708,7 @@ begin
 	t := taux_type(0.248895, 0.318478, 0.432627);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '421.jpg'
+	where nom = '421.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4721,7 +4721,7 @@ begin
 	t := taux_type(0.333971, 0.333949, 0.332080);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '177.jpg'
+	where nom = '177.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4734,7 +4734,7 @@ begin
 	t := taux_type(0.424888, 0.307716, 0.267395);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '408.jpg'
+	where nom = '408.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4747,7 +4747,7 @@ begin
 	t := taux_type(0.336833, 0.340006, 0.323161);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '234.jpg'
+	where nom = '234.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4760,7 +4760,7 @@ begin
 	t := taux_type(0.481885, 0.282011, 0.236103);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '347.jpg'
+	where nom = '347.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4773,7 +4773,7 @@ begin
 	t := taux_type(0.345911, 0.330250, 0.323840);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '259.jpg'
+	where nom = '259.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4786,7 +4786,7 @@ begin
 	t := taux_type(0.398479, 0.346593, 0.254928);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '15.jpg'
+	where nom = '15.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4799,7 +4799,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '286.jpg'
+	where nom = '286.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4812,7 +4812,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '4.jpg'
+	where nom = '4.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4825,7 +4825,7 @@ begin
 	t := taux_type(0.496535, 0.289749, 0.213716);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '478.jpg'
+	where nom = '478.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4838,7 +4838,7 @@ begin
 	t := taux_type(0.326481, 0.332938, 0.340580);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '336.jpg'
+	where nom = '336.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4851,7 +4851,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '349.jpg'
+	where nom = '349.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4864,7 +4864,7 @@ begin
 	t := taux_type(0.341945, 0.331876, 0.326179);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '130.jpg'
+	where nom = '130.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4877,7 +4877,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '250.jpg'
+	where nom = '250.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4890,7 +4890,7 @@ begin
 	t := taux_type(0.349576, 0.336244, 0.314180);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '477.jpg'
+	where nom = '477.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4903,7 +4903,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '157.jpg'
+	where nom = '157.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4916,7 +4916,7 @@ begin
 	t := taux_type(0.337449, 0.337787, 0.324763);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '376.jpg'
+	where nom = '376.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4929,7 +4929,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '201.jpg'
+	where nom = '201.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4942,7 +4942,7 @@ begin
 	t := taux_type(0.410732, 0.340776, 0.248492);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '362.jpg'
+	where nom = '362.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4955,7 +4955,7 @@ begin
 	t := taux_type(0.339170, 0.338691, 0.322139);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '424.jpg'
+	where nom = '424.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4968,7 +4968,7 @@ begin
 	t := taux_type(0.375627, 0.309736, 0.314637);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '321.jpg'
+	where nom = '321.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4981,7 +4981,7 @@ begin
 	t := taux_type(0.328648, 0.358300, 0.313051);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '308.jpg'
+	where nom = '308.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -4994,7 +4994,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '267.jpg'
+	where nom = '267.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5007,7 +5007,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '28.jpg'
+	where nom = '28.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5020,7 +5020,7 @@ begin
 	t := taux_type(0.342092, 0.331023, 0.326885);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '303.jpg'
+	where nom = '303.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5033,7 +5033,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '263.jpg'
+	where nom = '263.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5046,7 +5046,7 @@ begin
 	t := taux_type(0.357198, 0.328487, 0.314315);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '186.jpg'
+	where nom = '186.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5059,7 +5059,7 @@ begin
 	t := taux_type(0.331266, 0.336845, 0.331888);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '339.jpg'
+	where nom = '339.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5072,7 +5072,7 @@ begin
 	t := taux_type(0.374520, 0.325818, 0.299662);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '111.jpg'
+	where nom = '111.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5085,7 +5085,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '143.jpg'
+	where nom = '143.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5098,7 +5098,7 @@ begin
 	t := taux_type(0.368765, 0.332609, 0.298627);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '448.jpg'
+	where nom = '448.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5111,7 +5111,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '59.jpg'
+	where nom = '59.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5124,7 +5124,7 @@ begin
 	t := taux_type(0.326880, 0.329051, 0.344069);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '456.jpg'
+	where nom = '456.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5137,7 +5137,7 @@ begin
 	t := taux_type(0.342122, 0.323413, 0.334465);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '160.jpg'
+	where nom = '160.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5150,7 +5150,7 @@ begin
 	t := taux_type(0.353783, 0.333062, 0.313155);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '381.jpg'
+	where nom = '381.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5163,7 +5163,7 @@ begin
 	t := taux_type(0.340178, 0.335639, 0.324182);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '167.jpg'
+	where nom = '167.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5176,7 +5176,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '129.jpg'
+	where nom = '129.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5189,7 +5189,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '312.jpg'
+	where nom = '312.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5202,7 +5202,7 @@ begin
 	t := taux_type(0.339462, 0.326779, 0.333759);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '251.jpg'
+	where nom = '251.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5215,7 +5215,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '457.jpg'
+	where nom = '457.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5228,7 +5228,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '306.jpg'
+	where nom = '306.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5241,7 +5241,7 @@ begin
 	t := taux_type(0.330897, 0.335069, 0.334034);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '249.jpg'
+	where nom = '249.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5254,7 +5254,7 @@ begin
 	t := taux_type(0.356281, 0.327739, 0.315980);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '357.jpg'
+	where nom = '357.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5267,7 +5267,7 @@ begin
 	t := taux_type(0.336808, 0.333729, 0.329463);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '342.jpg'
+	where nom = '342.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5280,7 +5280,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '428.jpg'
+	where nom = '428.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5293,7 +5293,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '56.jpg'
+	where nom = '56.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5306,7 +5306,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '283.jpg'
+	where nom = '283.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5319,7 +5319,7 @@ begin
 	t := taux_type(0.331041, 0.330793, 0.338166);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '299.jpg'
+	where nom = '299.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5332,7 +5332,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '425.jpg'
+	where nom = '425.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5345,7 +5345,7 @@ begin
 	t := taux_type(0.341247, 0.333428, 0.325326);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '148.jpg'
+	where nom = '148.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5358,7 +5358,7 @@ begin
 	t := taux_type(0.342504, 0.329546, 0.327949);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '244.jpg'
+	where nom = '244.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5371,7 +5371,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '274.jpg'
+	where nom = '274.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5384,7 +5384,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '233.jpg'
+	where nom = '233.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5397,7 +5397,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '483.jpg'
+	where nom = '483.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5410,7 +5410,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '327.jpg'
+	where nom = '327.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5423,7 +5423,7 @@ begin
 	t := taux_type(0.336340, 0.340963, 0.322696);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '144.jpg'
+	where nom = '144.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5436,7 +5436,7 @@ begin
 	t := taux_type(0.363540, 0.328395, 0.308064);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '365.jpg'
+	where nom = '365.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5449,7 +5449,7 @@ begin
 	t := taux_type(0.371972, 0.327005, 0.301023);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '374.jpg'
+	where nom = '374.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5462,7 +5462,7 @@ begin
 	t := taux_type(0.355858, 0.323688, 0.320453);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '301.jpg'
+	where nom = '301.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5475,7 +5475,7 @@ begin
 	t := taux_type(0.377456, 0.328254, 0.294289);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '132.jpg'
+	where nom = '132.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5488,7 +5488,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '188.jpg'
+	where nom = '188.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5501,7 +5501,7 @@ begin
 	t := taux_type(0.330356, 0.332055, 0.337589);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '39.jpg'
+	where nom = '39.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5514,7 +5514,7 @@ begin
 	t := taux_type(0.351114, 0.374248, 0.274638);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '49.jpg'
+	where nom = '49.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5527,7 +5527,7 @@ begin
 	t := taux_type(0.386599, 0.317951, 0.295450);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '455.jpg'
+	where nom = '455.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5540,7 +5540,7 @@ begin
 	t := taux_type(0.334423, 0.331499, 0.334078);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '387.jpg'
+	where nom = '387.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5553,7 +5553,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '88.jpg'
+	where nom = '88.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5566,7 +5566,7 @@ begin
 	t := taux_type(0.380040, 0.335169, 0.284791);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '190.jpg'
+	where nom = '190.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5579,7 +5579,7 @@ begin
 	t := taux_type(0.541850, 0.221285, 0.236865);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '102.jpg'
+	where nom = '102.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5592,7 +5592,7 @@ begin
 	t := taux_type(0.325254, 0.343100, 0.331647);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '94.jpg'
+	where nom = '94.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5605,7 +5605,7 @@ begin
 	t := taux_type(0.350521, 0.325842, 0.323636);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '278.jpg'
+	where nom = '278.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5618,7 +5618,7 @@ begin
 	t := taux_type(0.260633, 0.323579, 0.415788);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '422.jpg'
+	where nom = '422.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5631,7 +5631,7 @@ begin
 	t := taux_type(0.316616, 0.315851, 0.367533);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '107.jpg'
+	where nom = '107.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5644,7 +5644,7 @@ begin
 	t := taux_type(0.320810, 0.332251, 0.346939);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '401.jpg'
+	where nom = '401.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5657,7 +5657,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '280.jpg'
+	where nom = '280.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5670,7 +5670,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '18.jpg'
+	where nom = '18.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5683,7 +5683,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '446.jpg'
+	where nom = '446.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5696,7 +5696,7 @@ begin
 	t := taux_type(0.299816, 0.296164, 0.404019);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '287.jpg'
+	where nom = '287.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5709,7 +5709,7 @@ begin
 	t := taux_type(0.335909, 0.334400, 0.329692);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '2.jpg'
+	where nom = '2.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5722,7 +5722,7 @@ begin
 	t := taux_type(0.409065, 0.314796, 0.276139);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '19.jpg'
+	where nom = '19.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5735,7 +5735,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '285.jpg'
+	where nom = '285.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5748,7 +5748,7 @@ begin
 	t := taux_type(0.324871, 0.331830, 0.343298);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '55.jpg'
+	where nom = '55.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5761,7 +5761,7 @@ begin
 	t := taux_type(0.356204, 0.319870, 0.323926);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '121.jpg'
+	where nom = '121.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5774,7 +5774,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '189.jpg'
+	where nom = '189.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5787,7 +5787,7 @@ begin
 	t := taux_type(0.343183, 0.331051, 0.325766);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '70.jpg'
+	where nom = '70.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5800,7 +5800,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '294.jpg'
+	where nom = '294.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5813,7 +5813,7 @@ begin
 	t := taux_type(0.358355, 0.328176, 0.313469);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '487.jpg'
+	where nom = '487.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5826,7 +5826,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '61.jpg'
+	where nom = '61.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5839,7 +5839,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '66.jpg'
+	where nom = '66.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5852,7 +5852,7 @@ begin
 	t := taux_type(0.369315, 0.351334, 0.279351);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '265.jpg'
+	where nom = '265.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5865,7 +5865,7 @@ begin
 	t := taux_type(0.364446, 0.324629, 0.310925);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '335.jpg'
+	where nom = '335.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5878,7 +5878,7 @@ begin
 	t := taux_type(0.338822, 0.359481, 0.301697);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '470.jpg'
+	where nom = '470.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5891,7 +5891,7 @@ begin
 	t := taux_type(0.355578, 0.339019, 0.305404);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '453.jpg'
+	where nom = '453.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5904,7 +5904,7 @@ begin
 	t := taux_type(0.338601, 0.328951, 0.332448);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '13.jpg'
+	where nom = '13.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5917,7 +5917,7 @@ begin
 	t := taux_type(0.391511, 0.320470, 0.288020);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '72.jpg'
+	where nom = '72.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5930,7 +5930,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '377.jpg'
+	where nom = '377.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5943,7 +5943,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '228.jpg'
+	where nom = '228.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5956,7 +5956,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '139.jpg'
+	where nom = '139.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5969,7 +5969,7 @@ begin
 	t := taux_type(0.379848, 0.329184, 0.290968);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '331.jpg'
+	where nom = '331.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5982,7 +5982,7 @@ begin
 	t := taux_type(0.337708, 0.340067, 0.322226);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '171.jpg'
+	where nom = '171.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -5995,7 +5995,7 @@ begin
 	t := taux_type(0.324928, 0.342388, 0.332684);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '326.jpg'
+	where nom = '326.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6008,7 +6008,7 @@ begin
 	t := taux_type(0.289310, 0.334212, 0.376478);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '113.jpg'
+	where nom = '113.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6021,7 +6021,7 @@ begin
 	t := taux_type(0.358443, 0.342319, 0.299237);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '463.jpg'
+	where nom = '463.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6034,7 +6034,7 @@ begin
 	t := taux_type(0.363265, 0.321984, 0.314751);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '24.jpg'
+	where nom = '24.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6047,7 +6047,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '226.jpg'
+	where nom = '226.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6060,7 +6060,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '427.jpg'
+	where nom = '427.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6073,7 +6073,7 @@ begin
 	t := taux_type(0.300939, 0.309222, 0.389839);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '328.jpg'
+	where nom = '328.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6086,7 +6086,7 @@ begin
 	t := taux_type(0.358482, 0.336739, 0.304779);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '219.jpg'
+	where nom = '219.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6099,7 +6099,7 @@ begin
 	t := taux_type(0.341403, 0.335047, 0.323551);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '172.jpg'
+	where nom = '172.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6112,7 +6112,7 @@ begin
 	t := taux_type(0.408810, 0.278213, 0.312977);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '236.jpg'
+	where nom = '236.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6125,7 +6125,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '202.jpg'
+	where nom = '202.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6138,7 +6138,7 @@ begin
 	t := taux_type(0.253640, 0.355793, 0.390567);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '262.jpg'
+	where nom = '262.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6151,7 +6151,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '398.jpg'
+	where nom = '398.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6164,7 +6164,7 @@ begin
 	t := taux_type(0.340772, 0.365385, 0.293843);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '163.jpg'
+	where nom = '163.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6177,7 +6177,7 @@ begin
 	t := taux_type(0.336544, 0.337804, 0.325652);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '437.jpg'
+	where nom = '437.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6190,7 +6190,7 @@ begin
 	t := taux_type(0.353440, 0.329534, 0.317025);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '200.jpg'
+	where nom = '200.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6203,7 +6203,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '486.jpg'
+	where nom = '486.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6216,7 +6216,7 @@ begin
 	t := taux_type(0.346499, 0.329514, 0.323988);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '438.jpg'
+	where nom = '438.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6229,7 +6229,7 @@ begin
 	t := taux_type(0.432131, 0.424118, 0.143751);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '348.jpg'
+	where nom = '348.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6242,7 +6242,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '214.jpg'
+	where nom = '214.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6255,7 +6255,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '135.jpg'
+	where nom = '135.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6268,7 +6268,7 @@ begin
 	t := taux_type(0.465091, 0.369792, 0.165117);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '276.jpg'
+	where nom = '276.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6281,7 +6281,7 @@ begin
 	t := taux_type(0.328096, 0.326573, 0.345331);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '34.jpg'
+	where nom = '34.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6294,7 +6294,7 @@ begin
 	t := taux_type(0.394297, 0.322905, 0.282798);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '407.jpg'
+	where nom = '407.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6307,7 +6307,7 @@ begin
 	t := taux_type(0.349979, 0.321757, 0.328264);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '368.jpg'
+	where nom = '368.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6320,7 +6320,7 @@ begin
 	t := taux_type(0.395225, 0.324392, 0.280383);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '338.jpg'
+	where nom = '338.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6333,7 +6333,7 @@ begin
 	t := taux_type(0.407606, 0.335380, 0.257014);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '174.jpg'
+	where nom = '174.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6346,7 +6346,7 @@ begin
 	t := taux_type(0.345358, 0.338658, 0.315984);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '333.jpg'
+	where nom = '333.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6359,7 +6359,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '158.jpg'
+	where nom = '158.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6372,7 +6372,7 @@ begin
 	t := taux_type(0.361674, 0.325290, 0.313035);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '473.jpg'
+	where nom = '473.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6385,7 +6385,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '112.jpg'
+	where nom = '112.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6398,7 +6398,7 @@ begin
 	t := taux_type(0.333477, 0.333253, 0.333270);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '356.jpg'
+	where nom = '356.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6411,7 +6411,7 @@ begin
 	t := taux_type(0.343561, 0.334761, 0.321678);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '104.jpg'
+	where nom = '104.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6424,7 +6424,7 @@ begin
 	t := taux_type(0.424348, 0.357727, 0.217925);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '242.jpg'
+	where nom = '242.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6437,7 +6437,7 @@ begin
 	t := taux_type(0.348481, 0.334675, 0.316844);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '91.jpg'
+	where nom = '91.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6450,7 +6450,7 @@ begin
 	t := taux_type(0.384948, 0.340426, 0.274626);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '388.jpg'
+	where nom = '388.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6463,7 +6463,7 @@ begin
 	t := taux_type(0.333333, 0.333333, 0.333333);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '304.jpg'
+	where nom = '304.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6476,7 +6476,7 @@ begin
 	t := taux_type(0.341644, 0.334470, 0.323886);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '125.jpg'
+	where nom = '125.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6489,7 +6489,7 @@ begin
 	t := taux_type(0.327924, 0.335686, 0.336390);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '431.jpg'
+	where nom = '431.jpg';
 	commit;
 
 	select HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t
@@ -6502,7 +6502,7 @@ begin
 	t := taux_type(0.428446, 0.325103, 0.246451);
 	update multimedia
 	set HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t
-	where nom = '117.jpg'
+	where nom = '117.jpg';
 	commit;
 
 end;
