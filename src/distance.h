@@ -5,10 +5,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "../Lib/def.h"
-#include "../Lib/nrio.h"
-#include "../Lib/nrarith.h"
-#include "../Lib/nralloc.h"
 #include "feature_extractor.h"
 
 int* difference_histogram(int* histogram1, int* histogram2);

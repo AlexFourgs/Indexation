@@ -6,16 +6,25 @@ CC_FLAGS = -Wall -pedantic
 LIB_FILES = ../Lib/nralloc.c ../Lib/nrarith.c ../Lib/nrio.c
 LIB_OBJ = ../Lib/nralloc.o ../Lib/nrarith.o ../Lib/nrio.o
 
-all: indexation
+all: indexation extractor
 
 indexation: indexation.o $(LIB_OBJ)
 	$(CC) $(CC_FLAGS) indexation.o $(LIB_OBJ) -o indexation.out
+
+extractor: feature_extractor_test.o distance.o feature_extractor.o $(LIB_OBJ)
+	$(CC) $(CC_FLAGS) feature_extractor_test.o distance.o feature_extractor.o $(LIB_OBJ) -o extractor.out -lm
+
+feature_extractor_test.o: feature_extractor_test.c
+	$(CC) -o feature_extractor_test.o -c feature_extractor_test.c
 
 conv: conv_main.c convolution.o
 	$(CC) -w convolution.o $(LIB_OBJ) conv_main.c -lm -o convolution.out
 
 indexation.o: indexation.c indexation.h ../Lib/def.h ../Lib/nralloc.h ../Lib/nrarith.h ../Lib/nrio.h
 	$(CC) -c indexation.c -o indexation.o
+
+distance.o: distance.c distance.h 
+	$(CC) -c distance.c -o distance.o -lm
 
 ../Lib/%.o: ../Lib/%.c ../Lib/%.h -w -lm
 	@$(CC) -c $< -o $@
