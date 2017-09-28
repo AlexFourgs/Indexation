@@ -1,10 +1,11 @@
 #include "plsql_generator.h"
 #include "feature_extractor.h"
+#include "convolution.h"
 
 #include <dirent.h>
 #include <string.h>
 
-// gcc -o plsql_generator plsql_generator.c feature_extractor.c ../Lib/nralloc.c ../Lib/nrio.c ../Lib/nrarith.c -w -lm
+// gcc -o plsql_generator plsql_generator.c convolution.c feature_extractor.c ../Lib/nralloc.c ../Lib/nrio.c ../Lib/nrarith.c -w -lm
 
 void generate_plsql_script(char* directory, char* script_file, float moyenne_norme_gradient, int nb_pixel_contour){
     // variable de fichiers
@@ -12,6 +13,10 @@ void generate_plsql_script(char* directory, char* script_file, float moyenne_nor
     struct dirent* actualFile = NULL ;
     char* actualFilePath = (char*)malloc(100*sizeof(char)) ;
     FILE* script = NULL ;
+    char* fileNameJPG = (char*)malloc(100*sizeof(char));
+    long nrh,nrl,nch,ncl ;
+    rgb8** image ;
+    byte** image_nb ;
 
     // variables de char* pour les requêtes
     char* actualFileName = (char*)malloc(100*sizeof(char));
@@ -23,7 +28,8 @@ void generate_plsql_script(char* directory, char* script_file, float moyenne_nor
     // autres variables
     int i_histo = 0 ;
     char* actualHisto = (char*)malloc(10*sizeof(char));
-    long* histogram ;
+    long* histogramme ;
+    float mgn = 0.0 ;
     float* rate ;
 
 
@@ -58,7 +64,16 @@ void generate_plsql_script(char* directory, char* script_file, float moyenne_nor
         **/
         while((actualFile = readdir(dir)) != NULL){
             if(strcmp(actualFile->d_name, "..") && strcmp(actualFile->d_name, ".")){
+                // Chargement image ppm
                 sprintf(actualFilePath, "./archive500/ppm/%s", actualFile->d_name);
+                image = LoadPPM_rgb8matrix(actualFilePath, &nrl, &nrh, &ncl, &nch);
+                image_nb = rgb_to_greyscale(image, nrl, nrh, ncl, nch);
+
+                // Remplacement nom pour BDD avec l'extension jpg
+                strcpy(fileNameJPG, actualFile->d_name);
+                fileNameJPG[strlen(fileNameJPG)-3] = 'j' ;
+                fileNameJPG[strlen(fileNameJPG)-2] = 'p' ;
+                fileNameJPG[strlen(fileNameJPG)-1] = 'g' ;
 
                 printf("Le fichier lu s'appelle %s.\n", actualFile->d_name);
 
@@ -66,24 +81,26 @@ void generate_plsql_script(char* directory, char* script_file, float moyenne_nor
                 fputs("\tfrom multimedia\n", script);
 
 
-                sprintf(actualFileName, "\twhere nom = '%s'\n", actualFile->d_name);
+                sprintf(actualFileName, "\twhere nom = '%s'\n", fileNameJPG);
                 fputs(actualFileName, script);
 
                 fputs("\tfor update;\n", script);
 
-                histogram = histogram_file(actualFilePath);
+                histogramme = histogram(image_nb, nrl, nrh, ncl, nch);
                 strcpy(requestHistogram, "\th := histo_type(");
                 for(i_histo = 0 ; i_histo < 255 ; i_histo++){
-                    sprintf(actualHisto, "%ld, ", histogram[i_histo]);
+                    sprintf(actualHisto, "%ld, ", histogramme[i_histo]);
                     strcat(requestHistogram, actualHisto);
                 }
-                sprintf(actualHisto, "%ld", histogram[i_histo]);
+                sprintf(actualHisto, "%ld", histogramme[i_histo]);
                 strcat(requestHistogram, actualHisto);
                 strcat(requestHistogram, ");\n");
                 fputs(requestHistogram, script);
 
 
-                sprintf(requestMNG, "\tm := %f;\n", moyenne_norme_gradient);
+                mgn = meanGradientNorm(image_nb, nrl, nrh, ncl, nch);
+                printf("MGN : %f\n", mgn);
+                sprintf(requestMNG, "\tm := %f;\n", mgn);
                 fputs(requestMNG, script);
 
                 sprintf(requestNPC, "\tn := %d;\n", nb_pixel_contour);
