@@ -76,17 +76,18 @@ void generate_plsql_script(char* directory, char* script_file){
                 fileNameJPG[strlen(fileNameJPG)-2] = 'p' ;
                 fileNameJPG[strlen(fileNameJPG)-1] = 'g' ;
 
-                printf("Le fichier lu s'appelle %s.\n", actualFile->d_name);
+                //printf("Le fichier lu s'appelle %s.\n", actualFile->d_name);
 
+                // Début de la requête
                 fputs("\tselect HISTOGRAMME, MOYENNE_NORME_GRADIENT, NB_PIXEL_COUNTOUR, TAUX_COULEURS into h, m, n, t\n", script);
                 fputs("\tfrom multimedia\n", script);
-
 
                 sprintf(actualFileName, "\twhere nom = '%s'\n", fileNameJPG);
                 fputs(actualFileName, script);
 
                 fputs("\tfor update;\n", script);
 
+                // Calcul de l'histogramme et génération requête
                 histogramme = histogram(image_nb, nrl, nrh, ncl, nch);
                 strcpy(requestHistogram, "\th := histo_type(");
                 for(i_histo = 0 ; i_histo < 255 ; i_histo++){
@@ -98,19 +99,22 @@ void generate_plsql_script(char* directory, char* script_file){
                 strcat(requestHistogram, ");\n");
                 fputs(requestHistogram, script);
 
-
+                // Calcul de la MGN et génération requête
                 mgn = MGN_from_image(image_nb, nrl, nrh, ncl, nch);
                 sprintf(requestMNG, "\tm := %f;\n", mgn);
                 fputs(requestMNG, script);
 
+                // Calcul nb pixel contour et génération requête
                 nb_pixel_contour = EP_from_image(image_nb, nrl, nrh, ncl, nch);
                 sprintf(requestNPC, "\tn := %d;\n", nb_pixel_contour);
                 fputs(requestNPC, script);
 
+                // Calcul RGB Rate et génération requête
                 rate = rgb_rate_file(actualFilePath);
                 sprintf(requestRGBRate, "\tt := taux_type(%f, %f, %f);\n", rate[0], rate[1], rate[2]);
                 fputs(requestRGBRate, script);
 
+                // Fin requête
                 fputs("\tupdate multimedia\n", script);
                 fputs("\tset HISTOGRAMME = h, MOYENNE_NORME_GRADIENT = m, NB_PIXEL_COUNTOUR = n, TAUX_COULEURS = t\n", script);
 
