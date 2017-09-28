@@ -65,6 +65,7 @@ int main() {
     free_bmatrix(gradX, nrl, nrh, ncl, nch);
     free_bmatrix(gradY, nrl, nrh, ncl, nch);
     free_bmatrix(gradient, nrl, nrh, ncl, nch);
+    free_bmatrix(gradient_bin, nrl, nrh, ncl, nch);
 
     return 0;
 }
