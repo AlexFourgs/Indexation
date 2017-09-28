@@ -7,6 +7,7 @@
 #include <string.h>
 #include "convolution.h"
 #include "feature_extractor.h"
+#include <dirent.h>
 
 long* difference_histogram(long* histogram1, long* histogram2);
 double euclidian_norm(double* histogram1, double* histogram2);

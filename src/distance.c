@@ -90,3 +90,46 @@ float compare(rgb8** image1_in, rgb8** image2_in,long nrl, long nrh, long ncl, l
   return score_histogram;
 
   }
+
+  char* compare_all(rgb8** image1_in, long nrl, long nrh, long ncl, long nch, char* directory){
+
+    //declare
+    int i;
+    DIR* dir = NULL ;
+    struct dirent* actualFile = NULL ;
+    char* actualFilePath = (char*)malloc(100*sizeof(char)) ;
+    long nrl_cp, nrh_cp, ncl_cp, nch_cp;
+    rgb8** image;
+    byte** image_gs;
+    double score=20;
+    double scoreMin=20;
+    char* finalMin = (char*)malloc(100*sizeof(char));
+
+    //open directory
+    dir = opendir(directory);
+
+    if(dir == NULL){
+        printf("Erreur ouverture du répertoire.") ;
+        exit(1);
+    }
+
+    //browse all images
+    while((actualFile = readdir(dir)) != NULL){
+      if(strcmp(actualFile->d_name, "..") && strcmp(actualFile->d_name, ".")){
+
+        sprintf(actualFilePath, "./archive500/ppm/%s", actualFile->d_name);
+        printf("actualFile->d_name %s \n",actualFile->d_name);
+        image = LoadPPM_rgb8matrix(actualFilePath, &nrl_cp, &nrh_cp, &ncl_cp, &nch_cp);
+
+        //compare
+        if((score = compare(image,image1_in,nrl_cp,nrh_cp,ncl_cp,nch_cp,nrl,nrh,ncl,nch)) < scoreMin ){
+          scoreMin = score;
+          strcpy (finalMin, actualFile->d_name);
+        }
+
+      }
+    }
+    printf("koukou %s\n", finalMin);
+    return finalMin;
+
+  }
