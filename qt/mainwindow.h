@@ -2,6 +2,13 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <stdio.h>
+#include <stdlib.h>
+#include <dirent.h>
+#include <string.h>
+
+#include "feature_extractor.h"
+#include "convolution.h"
 
 namespace Ui {
 class MainWindow;
@@ -14,6 +21,16 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+
+    DIR* dir = NULL ;
+    FILE* script = NULL ;
+    long* histogramme ;
+    float mgn = 0.0 ;
+    float* rate ;
+    int nb_pixel_contour = 0 ;
+    rgb8** image ;
+    byte** image_nb ;
+    long nrh, nrl, nch, ncl;
 
 private slots:
     void on_fileButton_clicked();

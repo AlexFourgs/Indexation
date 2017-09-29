@@ -23,11 +23,11 @@ conv: conv_main.c convolution.o
 indexation.o: indexation.c indexation.h ../Lib/def.h ../Lib/nralloc.h ../Lib/nrarith.h ../Lib/nrio.h
 	$(CC) -c indexation.c -o indexation.o
 
-distance.o: distance.c distance.h 
+distance.o: distance.c distance.h
 	$(CC) -c distance.c -o distance.o -lm
 
 ../Lib/%.o: ../Lib/%.c ../Lib/%.h -w -lm
-	@$(CC) -c $< -o $@
+	@g++ -c $< -o $@
 
 convolution.o: convolution.c convolution.h ../Lib/def.h ../Lib/nralloc.h ../Lib/nrarith.h ../Lib/nrio.h
 	$(CC) -c convolution.c -o convolution.o

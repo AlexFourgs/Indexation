@@ -369,7 +369,7 @@ IMAGE_EXPORT(void) display_bvector_cycle(byte *v,long nl,long nh, char *format, 
   if(name != NULL) printf("%s", name);
 
   displayed = bvector0(nl, nh);
-  
+
   for(i=nl; i<=nh; i++) {
     if(!displayed[i]) {
       displayed[i] = 1;
@@ -398,7 +398,7 @@ IMAGE_EXPORT(void) display_svector_cycle(short *v,long nl,long nh, char *format,
   if(name != NULL) printf("%s", name);
 
   displayed = bvector0(nl, nh);
-  
+
   for(i=nl; i<=nh; i++) {
     if(!displayed[i]) {
       displayed[i] = 1;
@@ -427,7 +427,7 @@ IMAGE_EXPORT(void) display_usvector_cycle(ushort *v,long nl,long nh, char *forma
   if(name != NULL) printf("%s", name);
 
   displayed = bvector0(nl, nh);
-  
+
   for(i=nl; i<=nh; i++) {
     if(!displayed[i]) {
       displayed[i] = 1;
@@ -1663,7 +1663,7 @@ IMAGE_EXPORT(void) write_bmatrix(byte **m,long nrl,long nrh,long ncl, long nch, 
 /* ----------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -1684,7 +1684,7 @@ IMAGE_EXPORT(void) write_smatrix(short **m,long nrl,long nrh,long ncl, long nch,
 /* ------------------------------------------------------------------------------------------ */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -1705,7 +1705,7 @@ IMAGE_EXPORT(void) write_usmatrix(ushort **m,long nrl,long nrh,long ncl, long nc
 /* -------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -1726,7 +1726,7 @@ IMAGE_EXPORT(void) write_imatrix(int **m,long nrl,long nrh,long ncl, long nch, c
 /* ---------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -1747,7 +1747,7 @@ IMAGE_EXPORT(void) write_matrix(float **m,long nrl,long nrh,long ncl, long nch, 
 /* ----------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -1768,7 +1768,7 @@ IMAGE_EXPORT(void) write_dmatrix(double **m,long nrl,long nrh,long ncl, long nch
 /* ------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -1789,7 +1789,7 @@ IMAGE_EXPORT(void) write_rgb8matrix(rgb8 **m,long nrl,long nrh,long ncl, long nc
 /* ---------------------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -1864,7 +1864,7 @@ IMAGE_EXPORT(void) write_bmatrix_T(byte **m,long nrl,long nrh,long ncl, long nch
 /* ------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -1885,7 +1885,7 @@ IMAGE_EXPORT(void) write_smatrix_T(short **m,long nrl,long nrh,long ncl, long nc
 /* -------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -1906,7 +1906,7 @@ IMAGE_EXPORT(void) write_usmatrix_T(ushort **m,long nrl,long nrh,long ncl, long 
 /* ---------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -1927,7 +1927,7 @@ IMAGE_EXPORT(void) write_imatrix_T(int **m,long nrl,long nrh,long ncl, long nch,
 /* ------------------------------------------------------------------------------------------ */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -1948,7 +1948,7 @@ IMAGE_EXPORT(void) write_matrix_T(float **m,long nrl,long nrh,long ncl, long nch
 /* ------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -1969,7 +1969,7 @@ IMAGE_EXPORT(void) write_dmatrix_T(double **m,long nrl,long nrh,long ncl, long n
 /* --------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -2044,7 +2044,7 @@ IMAGE_EXPORT(void) write_bmatrix_number(byte **m,long nrl,long nrh,long ncl, lon
 /* ------------------------------------------------------------------------------------------------ */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -2073,7 +2073,7 @@ IMAGE_EXPORT(void) write_smatrix_number(short **m,long nrl,long nrh,long ncl, lo
 /* ------------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -2102,7 +2102,7 @@ IMAGE_EXPORT(void) write_usmatrix_number(ushort **m,long nrl,long nrh,long ncl, 
 /* --------------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -2131,7 +2131,7 @@ IMAGE_EXPORT(void) write_imatrix_number(int **m,long nrl,long nrh,long ncl, long
 /* ----------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -2160,7 +2160,7 @@ IMAGE_EXPORT(void) write_matrix_number(float **m,long nrl,long nrh,long ncl, lon
 /* ------------------------------------------------------------------------------------------------ */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -2189,7 +2189,7 @@ IMAGE_EXPORT(void) write_dmatrix_number(double **m,long nrl,long nrh,long ncl, l
 /* -------------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -2275,7 +2275,7 @@ IMAGE_EXPORT(void) write_bmatrix_T_number(byte **m,long nrl,long nrh,long ncl, l
 /* -------------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -2305,7 +2305,7 @@ IMAGE_EXPORT(void) write_smatrix_T_number(short **m,long nrl,long nrh,long ncl, 
 /* --------------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -2335,7 +2335,7 @@ IMAGE_EXPORT(void) write_usmatrix_T_number(ushort **m,long nrl,long nrh,long ncl
 /* ----------------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -2365,7 +2365,7 @@ IMAGE_EXPORT(void) write_imatrix_T_number(int **m,long nrl,long nrh,long ncl, lo
 /* -------------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -2395,7 +2395,7 @@ IMAGE_EXPORT(void) write_matrix_T_number(float **m,long nrl,long nrh,long ncl, l
 /* -------------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -2425,7 +2425,7 @@ IMAGE_EXPORT(void) write_dmatrix_T_number(double **m,long nrl,long nrh,long ncl,
 /* ---------------------------------------------------------------------------------------------------- */
 {
   long  i,j;
-  
+
   FILE *f;
 
   f = fopen(filename, "wt");
@@ -2770,7 +2770,7 @@ IMAGE_EXPORT(void) fwrite_bmatrix(byte **m,long nrl,long nrh,long ncl, long nch,
   FILE *f;
 
   f = fopen(filename, "wb");
-  if(f == NULL) nrerror("Can't open file in fwrite_bmatrix"); 
+  if(f == NULL) nrerror("Can't open file in fwrite_bmatrix");
 
   for(i=nrl; i<=nrh; i++) {
     fwrite(m[i]+nrl, sizeof(byte), ncol, f);
@@ -2880,7 +2880,7 @@ IMAGE_EXPORT(void) fread_bmatrix(char *filename, byte **m,long nrl,long nrh,long
   FILE *f;
 
   f = fopen(filename, "rb");
-  if(f == NULL) nrerror("Can't open file in fread_bmatrix"); 
+  if(f == NULL) nrerror("Can't open file in fread_bmatrix");
 
   for(i=nrl; i<=nrh; i++) {
     nread = fread(m[i]+nrl, sizeof(byte), ncol, f);
@@ -3387,7 +3387,7 @@ IMAGE_EXPORT(byte **) LoadPGM_bmatrix(char *filename, long *nrl, long *nrh, long
   char *buffer;
   /*char  c;/**/
   int i;
-  
+
   buffer = (char*) calloc(80, sizeof(char));
   /* ouverture du fichier */
   file = fopen(filename,"rb");
@@ -3411,7 +3411,7 @@ IMAGE_EXPORT(byte **) LoadPGM_bmatrix(char *filename, long *nrl, long *nrh, long
   *ncl = 0;
   *nch = width - 1;
   m = bmatrix(*nrl, *nrh, *ncl, *nch);
-  
+
   for(i=0; i<height; i++) {
     ReadPGMrow(file, width, m[i]);
   }
@@ -3429,7 +3429,7 @@ IMAGE_EXPORT(void) SavePGM_bmatrix(byte **m, long nrl, long nrh, long ncl, long 
   long ncol = nch-ncl+1;
 
   char buffer[80];
-  
+
   FILE *file;
   int  i;
 
@@ -3481,7 +3481,7 @@ IMAGE_EXPORT(rgb8 **) LoadPPM_rgb8matrix(char *filename, long *nrl, long *nrh, l
   char *buffer;
   /*char  c;/**/
   int i;
-  
+
   buffer = (char*) calloc(80, sizeof(char));
   /* ouverture du fichier */
   file = fopen(filename,"rb");
@@ -3505,7 +3505,7 @@ IMAGE_EXPORT(rgb8 **) LoadPPM_rgb8matrix(char *filename, long *nrl, long *nrh, l
   *ncl = 0;
   *nch = width - 1;
   m = rgb8matrix(*nrl, *nrh, *ncl, *nch);
-  
+
   for(i=0; i<height; i++) {
     ReadPNMrow(file, width, (byte*)m[i]);
   }
@@ -3523,7 +3523,7 @@ IMAGE_EXPORT(void) SavePPM_rgb8matrix(rgb8 **m, long nrl, long nrh, long ncl, lo
   long ncol = nch-ncl+1;
 
   char buffer[80];
-  
+
   FILE *file;
   int  i;
 

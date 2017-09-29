@@ -25,10 +25,25 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+        convolution.c \
+        feature_extractor.c \
+        lib/nrio.c \
+        lib/nrarith.c \
+        lib/nralloc.c
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+        convolution.h \
+        feature_extractor.h \
+        lib/def.h \
+        lib/nrio.h \
+        lib/nrarith.h \
+        lib/nralloc.h
 
 FORMS += \
         mainwindow.ui
+
+#LIBS += ../Lib/nralloc.o \
+#        ../Lib/nrarith.o \
+#        ../Lib/nrio.o
