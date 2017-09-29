@@ -37,7 +37,7 @@ begin
     endTime := CURRENT_TIMESTAMP;
     
     dbms_output.put_line('img=' || min_dist_nom);
-    dbms_output.put_line('ress=' || to_char(min_dist/100));
+    dbms_output.put_line('diff=' || to_char(min_dist/100));
     dbms_output.put_line('time=' || to_char(endTime-startTime));
 
 end;

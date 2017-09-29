@@ -10,7 +10,7 @@ int main() {
 
     FILE *in;
     char buff[512];
-    if(!(in = popen("sqlplus64 VINCMONO/VINCMONO17@\"(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.40.128.30)(PORT=1521))(CONNECT_DATA=(SID=emrepus)))\" @~/dev/m2/indexation/qt/comparison.sql", "r"))){
+    if(!(in = popen("sqlplus64 VINCMONO/VINCMONO17@\"(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.40.128.30)(PORT=1521))(CONNECT_DATA=(SID=emrepus)))\" @/home/agurato/dev/m2/indexation/src/comparison.sql", "r"))){
         return 1;
     }
     while(fgets(buff, sizeof(buff), in)!=NULL){
