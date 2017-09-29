@@ -8,8 +8,23 @@
 #include <string>
 #include <array>
 #include <sstream>
+#include <vector>
+#include <string.h>
+
 
 using namespace std;
+
+std::vector<string> split(std::string str,std::string sep){
+    char* cstr=const_cast<char*>(str.c_str());
+    char* current;
+    std::vector<std::string> arr;
+    current=strtok(cstr,sep.c_str());
+    while(current!=NULL){
+        arr.push_back(current);
+        current=strtok(NULL,sep.c_str());
+    }
+    return arr;
+}
 
 string exec();
 string GetStdoutFromCommand(string cmd);
@@ -71,45 +86,57 @@ void MainWindow::on_startButton_clicked()
     resStream << "Ressemblance : " << (1-score)*100 << " %";
     ui->calcTimeUs->setText(QString::fromStdString(timeStream.str()));
     ui->simUs->setText(QString::fromStdString(resStream.str()));
-    /*
-    string result = exec();
-    cout << "fini : " << result << endl;
-    */
-}
 
-string exec() {
-    FILE* pipe = popen("sqlplus64 VINCMONO/VINCMONO17@\"(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.40.128.30)(PORT=1521))(CONNECT_DATA=(SID=emrepus)))\" @~/dev/m2/indexation/qt/comparison.sql", "w");
-    if (!pipe) return "ERROR";
-    char buffer[128];
-    std::string result = "";
-    fprintf(pipe,"/\n");
-    fprintf(pipe,"quit\n");
-    while(!feof(pipe)) {
-        if(fgets(buffer, 128, pipe) != NULL) {
-            result += buffer;
+    FILE *in;
+    char buff[512];
+
+    char temp[10];
+    strcpy(temp, image_name.c_str());
+    string tempS = string(temp);
+
+    ostringstream cmd;
+    cmd << "echo \"/\\n'" << tempS.replace(tempS.end()-3, tempS.end(), "jpg") << "'\\n\" | sqlplus64 VINCMONO/VINCMONO17@\"(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.40.128.30)(PORT=1521))(CONNECT_DATA=(SID=emrepus)))\" @/home/agurato/dev/m2/indexation/src/comparison_2.sql";
+
+    cout << cmd.str() << endl;
+    ostringstream output;
+    /*
+    if(!(in = popen("echo \"/\\n\" | sqlplus64 VINCMONO/VINCMONO17@\"(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.40.128.30)(PORT=1521))(CONNECT_DATA=(SID=emrepus)))\" @/home/agurato/dev/m2/indexation/src/comparison_2.sql", "r"))){
+    }
+    */
+    if(!(in = popen(cmd.str().c_str(), "r"))){
+    }
+    while(fgets(buff, sizeof(buff), in)!=NULL){
+        output << buff;
+    }
+    pclose(in);
+
+    string outputS = output.str();
+
+    ostringstream timeOStream;
+    ostringstream resOStream;
+
+    std::vector<string> arr;
+    arr=split(outputS, "\n");
+    for(size_t i=0;i<arr.size();i++) {
+        if(arr[i].find("img=") != string::npos) {
+            cout << "../src/archive500/"+arr[i].substr(4) << endl;
+            QPixmap resultOPixmap;
+            resultOPixmap.load(QString::fromStdString("../src/archive500/"+arr[i].substr(4)));
+            QGraphicsScene* scene = new QGraphicsScene(this);
+            scene->addPixmap(resultOPixmap);
+            ui->oracleImg->setScene(scene);
+            ui->oracleImg->fitInView(scene->itemsBoundingRect(), Qt::KeepAspectRatio);
+        }
+        else if(arr[i].find("diff=") != string::npos) {
+            timeOStream << "Temps de calcul : " << arr[i].substr(5) << " s";
+            ui->calcTimeO->setText(QString::fromStdString(timeOStream.str()));
+        }
+        else if(arr[i].find("time=") != string::npos) {
+            resOStream << "Ressemblance : " << (1-atof(arr[i].substr(5).c_str()))*100 << " %";
+            ui->simO->setText(QString::fromStdString(resOStream.str()));
         }
     }
-    pclose(pipe);
-    return result;
 }
-
-string GetStdoutFromCommand(string cmd) {
-
-    string data;
-    FILE * stream;
-    const int max_buffer = 256;
-    char buffer[max_buffer];
-    cmd.append(" 2>&1");
-
-    stream = popen(cmd.c_str(), "r");
-    if (stream) {
-    while (!feof(stream))
-    if (fgets(buffer, max_buffer, stream) != NULL) data.append(buffer);
-    pclose(stream);
-    }
-    return data;
-    }
-
 
 byte** gradientNorm(byte** gradX, byte**gradY, int nrl, int nrh, int ncl, int nch) {
     int i = 0, j = 0;
