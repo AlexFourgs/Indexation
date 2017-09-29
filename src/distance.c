@@ -110,6 +110,9 @@ float compare(rgb8** image1_in, rgb8** image2_in,long nrl, long nrh, long ncl, l
 
   }
 
+  //compare_all(image, nrl, nrh,ncl, nch, "./archive500/ppm/",times,score);
+
+
   char* compare_all(rgb8** image1_in, long nrl, long nrh, long ncl, long nch, char* directory, double* timese, double* scoreMin){
 
     //declare
@@ -162,7 +165,7 @@ float compare(rgb8** image1_in, rgb8** image2_in,long nrl, long nrh, long ncl, l
     printf("finalMin %s \n", finalMin);
     printf("score = %f\n",*scoreMin);
     printf("time = %f", elapsed);
-    
+
     timese = &elapsed;
     return finalMin;
 
