@@ -8,6 +8,7 @@
 #include <stdexcept>
 #include <string>
 #include <array>
+#include <sstream>
 
 using namespace std;
 
@@ -65,8 +66,16 @@ void MainWindow::on_startButton_clicked()
     ui->ourImg->setScene(scene);
     ui->ourImg->fitInView(scene->itemsBoundingRect(), Qt::KeepAspectRatio);
 
+    ostringstream timeStream;
+    timeStream << "Temps de calcul : " << time << " s";
+    ostringstream resStream;
+    resStream << "Ressemblance : " << (1-score)*100 << " %";
+    ui->calcTimeUs->setText(QString::fromStdString(timeStream.str()));
+    ui->simUs->setText(QString::fromStdString(resStream.str()));
+    /*
     string result = exec();
     cout << "fini : " << result << endl;
+    */
 }
 
 string exec() {
