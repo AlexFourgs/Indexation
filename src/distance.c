@@ -3,7 +3,7 @@
 long* difference_histogram(long* histogram1, long* histogram2){
 
   int i;
-  long* diff;
+  long* diff = (long*)malloc(256*sizeof(long));
 
   for(i=0; i<256; i++){
     diff[i] = histogram1[i] - histogram2[i];
@@ -110,6 +110,9 @@ float compare(rgb8** image1_in, rgb8** image2_in,long nrl, long nrh, long ncl, l
 
   }
 
+  //compare_all(image, nrl, nrh,ncl, nch, "./archive500/ppm/",times,score);
+
+
   char* compare_all(rgb8** image1_in, long nrl, long nrh, long ncl, long nch, char* directory, double* timese, double* scoreMin){
 
     //declare
@@ -124,8 +127,8 @@ float compare(rgb8** image1_in, rgb8** image2_in,long nrl, long nrh, long ncl, l
     double scorem=20;
     double timem=20;
 
-    scoreMin=&scorem;
-    timese=&timem;
+    *scoreMin=20;
+    *timese=0;
 
     char* finalMin = (char*)malloc(100*sizeof(char));
     clock_t start, stop;
@@ -158,12 +161,9 @@ float compare(rgb8** image1_in, rgb8** image2_in,long nrl, long nrh, long ncl, l
 
     stop = clock();
     elapsed = ((double)stop - start) / CLOCKS_PER_SEC;
-
-    printf("finalMin %s \n", finalMin);
-    printf("score = %f\n",*scoreMin);
-    printf("time = %f", elapsed);
     
-    timese = &elapsed;
+    *timese = elapsed;
+
     return finalMin;
 
   }
