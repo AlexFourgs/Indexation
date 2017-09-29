@@ -28,6 +28,10 @@ public:
     float mgn = 0.0 ;
     float* rate ;
     int nb_pixel_contour = 0 ;
+
+    std::string images_dir = "../src/archive500/ppm/";
+    std::string image_name;
+    std::string image_path;
     rgb8** image ;
     byte** image_nb ;
     long nrh, nrl, nch, ncl;

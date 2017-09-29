@@ -35,6 +35,9 @@ convolution.o: convolution.c convolution.h ../Lib/def.h ../Lib/nralloc.h ../Lib/
 occi: occi.cpp
 	g++-4.8 -o occi.out occi.cpp -I /opt/oracle/instantclient_12_2/sdk/include -locci -lnnz12 -lclntsh
 
+soci: soci.cpp
+	g++ -o soci.out soci.cpp -lsoci_core -lsoci_oracle -ldl -lclntsh -lnnz12
+
 clean: clean_object
 	rm -rfv mk.tmp
 	rm -rfv *.out

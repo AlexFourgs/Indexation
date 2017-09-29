@@ -1,9 +1,11 @@
-declare
-    identifiant NUMERIC;
-    nom VARCHAR(10);
+set serveroutput on;
+declare    
+    CURSOR taux_c IS
+        SELECT nom, TAUX_COULEURS FROM multimedia;
 begin
-    SELECT id, name INTO identifiant, nom FROM multimedia
-    WHERE taux_couleurs(1) = taux_couleurs(2)
-        AND taux_couleurs(1) = taux_couleurs(3)
-        AND taux_couleurs(2) = taux_couleurs(3) ;
+    FOR mm IN taux_c LOOP
+        IF(mm.taux_couleurs(1) = mm.taux_couleurs(2) AND mm.taux_couleurs(2) = mm.taux_couleurs(3)) THEN
+            DBMS_OUTPUT.PUT_LINE(mm.nom);
+        END IF;
+    END LOOP;
 end;

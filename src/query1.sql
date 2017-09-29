@@ -1,7 +1,11 @@
-declare
-    identifiant NUMERIC;
-    nom VARCHAR(10);
+set serveroutput on;
+declare    
+    CURSOR taux_c IS
+        SELECT nom, TAUX_COULEURS FROM multimedia;
 begin
-    SELECT id, name INTO identifiant, nom FROM multimedia
-    WHERE taux_couleurs(2) < 0.1 AND taux_couleurs(1) > 0.7 ;
+    FOR mm IN taux_c LOOP
+        IF(mm.TAUX_COULEURS(1) > 0.4 AND mm.TAUX_COULEURS(2) < 0.3) THEN
+            DBMS_OUTPUT.PUT_LINE(mm.nom);
+        END IF;
+    END LOOP;
 end;
