@@ -1,7 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QFileDialog>
-#include <iostream>
 #include <stdio.h>
 #include <iostream>
 #include <memory>
